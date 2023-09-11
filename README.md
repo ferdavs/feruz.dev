@@ -1,0 +1,2 @@
+# feruz.dev
+Personal site
