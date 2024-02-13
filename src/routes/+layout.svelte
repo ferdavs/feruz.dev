@@ -16,7 +16,7 @@
 <slot />
 
 <footer>
-	Version {VERSION}
+	v{VERSION}
 </footer>
 
 <style>
