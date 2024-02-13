@@ -5,8 +5,8 @@
 <nav>
 	<ul>
 		<li><a href="/">Home</a></li>
-		<li><a href="/cv">CV</a></li>
 		<li><a href="/projects">Projects</a></li>
+		<li><a href="/cv">CV</a></li>
 	</ul>
 </nav>
 
@@ -50,6 +50,5 @@
 		bottom: 0;
 		right: 0;
 		padding: 1em;
-		background-color: #f0f0f076;
 	}
 </style>
