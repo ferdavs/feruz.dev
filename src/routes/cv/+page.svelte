@@ -7,7 +7,7 @@
 	iframe {
 		margin-top: -4em;
 		margin-left: -5em;
-		width: 50%;
+		width: 60%;
 		height: 300vh;
 		border: none;
 	}
