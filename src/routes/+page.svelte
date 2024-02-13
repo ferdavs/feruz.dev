@@ -1,2 +1,19 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	let VERSION = __APP_VERSION__;
+</script>
+
+<footer>
+	Version {VERSION}
+</footer>
+
+<style>
+	footer {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		background-color: #f8f9fa5c;
+		padding: 10px;
+		text-align: center;
+	}
+</style>
