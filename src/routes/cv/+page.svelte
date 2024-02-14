@@ -6,8 +6,8 @@
 <style>
 	iframe {
 		margin-top: -3.75em;
-		margin-left: -5.3em;
-		width: 100%;
+		margin-left: -4.85em;
+		width: 120vh;
 		height: 300vh;
 		border: none;
 	}
