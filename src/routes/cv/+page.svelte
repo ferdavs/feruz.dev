@@ -8,7 +8,7 @@
 		margin-top: -3.75em;
 		margin-left: -4.85em;
 		width: 120vh;
-		height: 300vh;
+		height: 400vh;
 		border: none;
 	}
 </style>
