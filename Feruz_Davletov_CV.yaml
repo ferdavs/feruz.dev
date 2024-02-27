@@ -1,0 +1,167 @@
+cv:
+  name: Feruz Davletov
+  location: Bayreuth, Germany
+  # email: 
+  # phone: tel:+90-541-999-99-99
+  website: https://feruz.dev
+  social_networks:
+    - network: LinkedIn
+      username: feruz-davletov
+    - network: GitHub
+      username: ferdavs
+  sections:
+    summary:
+      - I'm a software engineer with a strong computer science background. My expertise includes Java, Python, and C#.NET, among other tools and technologies. I'm currently pursuing a Master's degree in Computer Science at Bayreuth University, with a research focus on chatbots to enhance language learning in groups. I'm seeking new opportunities to create impactful software solutions. Know Uzbek(Native), Turkmen(Native), Turkish(C1), English(C1), Russian(A2), and learning German(A2).
+    technologies:
+      - name: Languages
+        details: Java, Python 3+, C#.NET
+      - name: Frameworks
+        details: FastAPI, Django, Flask, Spring, PyQT5, PyQTGraph, NumPy, pandas, sci-kit-learn, PyTorch, TensorFlow 
+      - name: Databases
+        details: PostgreSQL, InfluxDB, Redis
+      - name: Tools
+        details: Git, Docker, GitLab CI/CD, Jira
+      - name: Platforms
+        details: Linux, Windows
+      
+    education:
+      - start_date: 2020-10
+        end_date: 2024-02
+        location: Bayreuth, Germany
+        institution: University of Bayreuth  
+        area: Computer Science
+        degree: MS    
+        highlights:
+          - '**Thesis:** Exploring the Role of Chatbots in Group Language Learning.'
+          - 'Investigated the potential of chatbots to enhance language learning in group settings. The study focused on the design, implementation, and evaluation of chatbot interactions to facilitate collaborative learning and engagement.'
+          - '**Projects:**'
+          - Optimizing Energy Consumption of Matrix Multiplication in CPU
+          - Google Maps-like Navigation with Voice
+          - Prediction of Energy Usage of Household Electronic Devices with Hardware Energy Meters
+      - start_date: 2013-09
+        end_date: 2016-06
+        location: Istanbul, Turkey
+        area: Computer Science  *discontinued*
+        degree: MS
+        highlights:
+          - '*The program was discontinued due to the university closure in 2016.*'
+          - Collaborated in the Data Science Lab on the Twitter Topic Strand project, analyzing social media discussions and participant dynamics.
+          - Contributed to the Bioinformatics Lab Metabolomics Data Analysis project, implementing algorithms for integrating Metabolic Networks with Gene Regulation Networks.
+        institution: Istanbul Sehir University 
+      - start_date: 2007-09
+        end_date: 2013-08
+        location: Istanbul, Turkey
+        highlights:
+          - Participated in RoboCup 2012 with the Robotics Lab, developing UI and communication software for managing 16 virtual robots in disaster scenarios, securing second place in the Virtual Rescue League twice.
+          - Worked in the Natural Languages Lab, focusing on feature extraction from Turkish texts and implementing NLP algorithms for text2arff conversion.
+        institution: Yildiz Technical University
+        area: Computer Engineering
+        degree: BS
+    experience:
+      - start_date: 2021-12
+        end_date: present
+        highlights:
+          - Developed software for sensor data acquisition from InfluxDB, enhancing data usability for analysis and other applications.
+          - Implemented a visualization tool using PyQt 5 and PyQTGraph for real-time sensor data monitoring, improving data accessibility for the Simulation department.
+          - Created a Python library to parse and reformat historical sensor data using pandas, streamlining data processing workflows.
+          - GitLab CICD setup for Linux and Windows deployments.
+          - 'Technologies: Python, InfluxDB, PyQt5, PyQTGraph, GitLab CI/CD, Pandas, Git, Docker, pandas, numpy'
+        location: Bayreuth, Germany
+        position: Software Engineer - Student Assistant
+        company: Fraunhofer ISC, HTL
+      - start_date: 2018-07
+        end_date: 2020-08
+        highlights:
+          - Worked in the core maintenance team, resolving critical issues and improving the platform's performance and reliability.
+          - Integrated Jive with Microsoft O365, SharePoint, Google Drive, and Box, expanding the platform's functionality and user collaboration capabilities.
+          - 'Technologies: Java, Spring, Microservices, Microsoft O365, SharePoint, Google Drive, Box, Docker, Jira'
+        location: Full Remote
+        company: Crossover
+        position: Java Software Engineer
+      - start_date: 2017-05
+        end_date: 2018-07
+        highlights:
+          - Contributed to  a financial portfolio analysis application for Android, 
+            delivering insights and analytics to users for informed investment decisions.
+          - Contributed to the development of the Galatasaray Football Team's Java backend and Android app, 
+            enhancing fan engagement and digital experience.
+          - 'Technologies: Java, Android, Play Framework, PostgreSQL, Docker, Asana, Git'
+        location: Istanbul, Turkey
+        company: Kolektif House  
+        position: Java Backend and Android Engineer
+      - start_date: 2013-07
+        end_date: 2015-08
+        highlights:
+          - Developed communication software for fire and smoke detection systems, integrating Serial (RS232) Mobile (GPRS) and TCP communication channels.
+          - Implemented asynchronous communication between the sensors and the server, increasing the number of sensors that connected to server from 200 to 1000. 
+          - 'Technologies: C#.NET, Serial, GPRS, TCP, UDP, Git'
+        location: Istanbul, Turkey
+        company: Mavili Elektronik 
+        position: Software Engineer
+    publications:
+      - title: 'High Impact Academic Paper Prediction Using Temporal and Topological Features'
+        authors:
+          - Feruz Davletov
+          - Ali Selman Aydin
+          - Ali Cakmak
+        doi: 10.1145/2661829.2662066
+        date: 2014-11
+        journal: CIKM
+      - title: 'Text2arff: Automatic feature extraction software for Turkish texts'
+        authors:
+          - M. Fatih Amasyali
+          - Feruz Davletov
+          - Arslan Torayew
+          - Umit Ciftci
+        doi: 10.1109/SIU.2010.5651686
+        date: 2010-04
+        journal: IEEE
+      - title: Routing with Dijkstra in Mobile Ad-Hoc Networks
+        authors:
+        - Khudaydad Mahmoodi
+        - Muhammet Balcilar
+        - M. Fatih Amasyali 
+        - Sirma Yavuz
+        - Yücel Uzun 
+        - Feruz Davletov
+        doi: 10.1007/978-3-662-44468-9
+        date: 2014-07
+        journal: LNAI
+    additional_experience_and_awards:
+      - name: RoboCup 2012 Mexico
+        details: 2. Place in RoboCup 2012 Rescue Simulation League 
+      - name: RoboCup 2012 Iran Open
+        details: 2. Place in RoboCup 2012 Rescue Simulation League
+design:
+  font_size: 10pt
+  page_size: a4paper
+  color: '#004f90'
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  show_last_updated_date: true
+  header_font_size: 30 pt
+  text_alignment: justified
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.1 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+  theme: classic
+  show_timespan_in:
+    - Experience
