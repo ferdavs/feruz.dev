@@ -11,3 +11,4 @@ vite.config.ts.timestamp-*
 rendercv_output/*.*
 tmp/
 .idea/
+static/*pdf
