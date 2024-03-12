@@ -13,24 +13,19 @@ function renderCV() {
 		console.log(stdout);
 		const source = 'rendercv_output';
 		const destination = 'static';
-		fs.readdir(source, (err, files) => {
-			if (err) {
-				console.error(err);
-				return;
-			}
-			const pdfFile = files.find(file => file.endsWith('CV.pdf'));
-			if (!pdfFile) {
-				console.error('No PDF file found');
-				return;
-			}
-			fs.rename(`${source}/${pdfFile}`, `${destination}/cv.pdf`, (err) => {
-				if (err) {
-					console.error(err);
-					return;
-				}
-				console.log(`Moved ${pdfFile} to ${destination}`);
-			});
+		let files = fs.readdirSync(source);
+		let cv = files.find(file => file.endsWith('CV.pdf'));
+		if (cv) {
+			fs.copyFileSync(`${source}/${cv}`, `${destination}/cv.pdf`);
+		}
+		let readme = files.find(file => file.endsWith('CV.md'));
+		if (readme) {
+			fs.copyFileSync(`${source}/${readme}`, `README.md`);
+		}
+		files.forEach(file => {
+			fs.unlinkSync(`${source}/${file}`);
 		});
+
 	});
 	return { path: '/cv.pdf' };
 }
