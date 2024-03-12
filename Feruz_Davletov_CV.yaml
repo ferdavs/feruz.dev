@@ -1,7 +1,7 @@
 cv:
   name: Feruz Davletov
   location: Bayreuth, Germany
-  # email: 
+  email: f3hvpxn7v@mozmail.com
   # phone: tel:+90-541-999-99-99
   website: https://feruz.dev
   social_networks:
@@ -11,22 +11,27 @@ cv:
       username: ferdavs
   sections:
     summary:
-      - I'm a software engineer with a strong computer science background. My expertise includes Java, Python, and C#.NET, among other tools and technologies. I'm currently pursuing a Master's degree in Computer Science at Bayreuth University, with a research focus on chatbots to enhance language learning in groups. I'm seeking new opportunities to create impactful software solutions. Know Uzbek(Native), Turkmen(Native), Turkish(C1), English(C1), Russian(A2), and learning German(A2).
+      - "**Skilled software engineer** with a background in computer science. Presently, finished a Master's degree in Computer Science at Bayreuth University, with a research focus on chatbots to enhance language learning in groups. **Professional goal** is to reach a **Software Architect** position in the **next 5 years**, specializing in **AI Systems**."
+    languages:
+      - "Uzbek(native), Turkmen(native), Turkish(C2), **English(C1)**, Russian(B1) and **German(A2 and learning)**."
     technologies:
-      - name: Languages
+      - label: Programming Languages
         details: Java, Python 3+, C#.NET
-      - name: Frameworks
-        details: FastAPI, Django, Flask, Spring, PyQT5, PyQTGraph, NumPy, pandas, sci-kit-learn, PyTorch, TensorFlow 
-      - name: Databases
+      - label: Frameworks
+        details: FastAPI, Django, Flask, Spring, Play Framework, PyQT5, PyQTGraph, NumPy, pandas, sci-kit-learn, PyTorch, TensorFlow(Keras)
+      - label: Databases
         details: PostgreSQL, InfluxDB, Redis
-      - name: Tools
+      - label: Tools
         details: Git, Docker, GitLab CI/CD, Jira
-      - name: Platforms
+      - label: Platforms
         details: Linux, Windows
-      
+    references:
+      - bullet: "**Prof. Dr. Daniel Buschek**, *University of Bayreuth*, [Daniel.Buschek@uni-bayreuth.de](mailto:Daniel.Buschek@uni-bayreuth.de)"
+      - bullet: "**Dr. Christina Schneegass**, *Delft University of Technology*, [C.Schneegass@tudelft.nl](mailto:C.Schneegass@tudelft.nl)"
+      - bullet: "**Dr. Simon Pirkelmann**, *Fraunhofer ISC, HTL*, [simon.pirkelmann@isc.fraunhofer.de](mailto:simon.pirkelmann@isc.fraunhofer.de)"
     education:
       - start_date: 2020-10
-        end_date: 2024-02
+        end_date: 2024-03
         location: Bayreuth, Germany
         institution: University of Bayreuth  
         area: Computer Science
@@ -57,27 +62,28 @@ cv:
         institution: Yildiz Technical University
         area: Computer Engineering
         degree: BS
+    
     experience:
       - start_date: 2021-12
-        end_date: present
+        end_date: 2023-04
         highlights:
           - Developed software for sensor data acquisition from InfluxDB, enhancing data usability for analysis and other applications.
           - Implemented a visualization tool using PyQt 5 and PyQTGraph for real-time sensor data monitoring, improving data accessibility for the Simulation department.
           - Created a Python library to parse and reformat historical sensor data using pandas, streamlining data processing workflows.
           - GitLab CICD setup for Linux and Windows deployments.
-          - 'Technologies: Python, InfluxDB, PyQt5, PyQTGraph, GitLab CI/CD, Pandas, Git, Docker, pandas, numpy'
+          - 'Technologies: **Python, InfluxDB, PyQt5, PyQTGraph, GitLab CI/CD, Pandas, Git, Docker, pandas, numpy**'
         location: Bayreuth, Germany
-        position: Software Engineer - Student Assistant
-        company: Fraunhofer ISC, HTL
+        position: '**Software Engineer - Student Assistant**'
+        company: 'FRAUNHOFER ISC-HTL'
       - start_date: 2018-07
         end_date: 2020-08
         highlights:
           - Worked in the core maintenance team, resolving critical issues and improving the platform's performance and reliability.
           - Integrated Jive with Microsoft O365, SharePoint, Google Drive, and Box, expanding the platform's functionality and user collaboration capabilities.
-          - 'Technologies: Java, Spring, Microservices, Microsoft O365, SharePoint, Google Drive, Box, Docker, Jira'
+          - 'Technologies: **Java, Spring, Microservices, Microsoft O365, SharePoint, Google Drive, Box, Docker, Jira**'
         location: Full Remote
-        company: Crossover
-        position: Java Software Engineer
+        company: CROSSOVER
+        position: '**Java Software Engineer**'
       - start_date: 2017-05
         end_date: 2018-07
         highlights:
@@ -85,19 +91,19 @@ cv:
             delivering insights and analytics to users for informed investment decisions.
           - Contributed to the development of the Galatasaray Football Team's Java backend and Android app, 
             enhancing fan engagement and digital experience.
-          - 'Technologies: Java, Android, Play Framework, PostgreSQL, Docker, Asana, Git'
+          - 'Technologies: **Java, Android, Play Framework, PostgreSQL, Docker, Asana, Git**'
         location: Istanbul, Turkey
-        company: Kolektif House  
-        position: Java Backend and Android Engineer
+        company: KOLEKTIF HOUSE  
+        position: '**Java Backend and Android Engineer**'
       - start_date: 2013-07
         end_date: 2015-08
         highlights:
           - Developed communication software for fire and smoke detection systems, integrating Serial (RS232) Mobile (GPRS) and TCP communication channels.
-          - Implemented asynchronous communication between the sensors and the server, increasing the number of sensors that connected to server from 200 to 1000. 
-          - 'Technologies: C#.NET, Serial, GPRS, TCP, UDP, Git'
+          - Implemented **asynchronous communication** between the sensors and the server, **increasing** the number of **sensors** that connected to server **from 200 to 1000**. 
+          - 'Technologies: **C#.NET, Serial, GPRS, TCP, UDP, Git**'
         location: Istanbul, Turkey
-        company: Mavili Elektronik 
-        position: Software Engineer
+        company: MAVILI ELEKTRONIK 
+        position: '**Software Engineer**'
     publications:
       - title: 'High Impact Academic Paper Prediction Using Temporal and Topological Features'
         authors:
@@ -116,30 +122,20 @@ cv:
         doi: 10.1109/SIU.2010.5651686
         date: 2010-04
         journal: IEEE
-      - title: Routing with Dijkstra in Mobile Ad-Hoc Networks
-        authors:
-        - Khudaydad Mahmoodi
-        - Muhammet Balcilar
-        - M. Fatih Amasyali 
-        - Sirma Yavuz
-        - Yücel Uzun 
-        - Feruz Davletov
-        doi: 10.1007/978-3-662-44468-9
-        date: 2014-07
-        journal: LNAI
+
     additional_experience_and_awards:
-      - name: RoboCup 2012 Mexico
+      - label: RoboCup 2012 Mexico
         details: 2. Place in RoboCup 2012 Rescue Simulation League 
-      - name: RoboCup 2012 Iran Open
+      - label: RoboCup 2012 Iran Open
         details: 2. Place in RoboCup 2012 Rescue Simulation League
 design:
   font_size: 10pt
   page_size: a4paper
-  color: '#004f90'
+  # color: '#004f90'
   disable_page_numbering: false
   page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  show_last_updated_date: true
-  header_font_size: 30 pt
+  show_last_updated_date: false
+  header_font_size: 26 pt
   text_alignment: justified
   margins:
     page:

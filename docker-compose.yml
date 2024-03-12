@@ -1,0 +1,19 @@
+version: '3.7'
+services:
+  feruz-blog:
+    container_name: feruz-blog
+    image: jekyll/jekyll:latest
+    command: jekyll serve --trace 
+    restart: always 
+    ports:
+      - "2345:5000"
+    volumes:
+      - /mnt/depo/jekyll:/srv/jekyll
+
+  feruz-tunnel:
+    container_name: feruz-tunnel
+    image: cloudflare/cloudflared
+    restart: always
+    command: tunnel run
+    environment:
+      - TUNNEL_TOKEN=${CLOUDFLARE_TUNNEL_FERUZ}

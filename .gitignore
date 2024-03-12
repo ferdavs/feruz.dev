@@ -12,3 +12,4 @@ rendercv_output/*.*
 tmp/
 .idea/
 static/*pdf
+rendercv_output/
