@@ -5,7 +5,7 @@ import { exec } from 'child_process';
 
 function renderCV() {
 	console.log('Rendering CV');
-	exec('rendercv render *CV.yaml', (err, stdout, stderr) => {
+	exec('poetry run rendercv render *CV.yaml', (err, stdout, stderr) => {
 		if (err) {
 			console.error(stderr);
 			return;
@@ -30,10 +30,23 @@ function renderCV() {
 	return { path: '/cv.pdf' };
 }
 
+function convertNotebooks() {
+	console.log('Converting Jupyter notebooks');
+	exec('poetry run jupyter nbconvert --to html projects/*.ipynb --output-dir ./src/routes/projects/', (err, stdout, stderr) => {
+		if (err) {
+			console.error(stderr);
+			return;
+		}
+		console.log(stdout);
+	});
+	return fs.readdirSync('src/routes/projects').filter(file => file.endsWith('.html'));
+}
+
 export default defineConfig({
 	plugins: [sveltekit()],
 	define: {
 		__CV_PATH__: renderCV(),
+		__NOTEBOOKS__: convertNotebooks(),
 		__APP_VERSION__: JSON.stringify(require('./package.json').version),
 	}
 });

@@ -1,4 +1,6 @@
 <script>
+	let NOTEBOOKS = __NOTEBOOKS__;
+	console.log(NOTEBOOKS);
 </script>
 
 <h1>Projects</h1>

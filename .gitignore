@@ -14,3 +14,5 @@ tmp/
 static/*pdf
 rendercv_output/
 .ipynb_checkpoints/
+.venv/
+poetry.lock
