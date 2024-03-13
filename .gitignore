@@ -13,3 +13,4 @@ tmp/
 .idea/
 static/*pdf
 rendercv_output/
+.ipynb_checkpoints/
