@@ -1,10 +1,19 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
 import fs from 'fs';
-import { exec } from 'child_process';
-
+import { exec, execSync } from 'child_process';
 function renderCV() {
 	console.log('Rendering CV');
+	// skip if nothing has changed
+	let files = fs.readdirSync('.').filter(file => file.endsWith("CV.yaml"));
+	let lastModified = Math.max(...files.map(file => fs.statSync(file).mtime));
+	let cv = 'static/cv.pdf';
+	if (fs.existsSync(cv)) {
+		let cvModified = fs.statSync(cv).mtime;
+		if (cvModified > lastModified) {
+			return { path: '/cv.pdf' };
+		}
+	}
 	exec('poetry run rendercv render *CV.yaml', (err, stdout, stderr) => {
 		if (err) {
 			console.error(stderr);
@@ -22,24 +31,32 @@ function renderCV() {
 		if (readme) {
 			fs.copyFileSync(`${source}/${readme}`, `README.md`);
 		}
-		files.forEach(file => {
-			fs.unlinkSync(`${source}/${file}`);
-		});
-
+		// files.forEach(file => {
+		// 	fs.unlinkSync(`${source}/${file}`);
+		// });
 	});
 	return { path: '/cv.pdf' };
 }
 
 function convertNotebooks() {
 	console.log('Converting Jupyter notebooks');
-	exec('poetry run jupyter nbconvert --to html projects/*.ipynb --output-dir ./src/routes/projects/', (err, stdout, stderr) => {
-		if (err) {
-			console.error(stderr);
-			return;
-		}
-		console.log(stdout);
+	// skip if nothing has changed
+	let files = fs.readdirSync('projects').filter(file => file.endsWith('.ipynb'));
+	let lastModified = Math.max(...files.map(file => fs.statSync(`projects/${file}`).mtime));
+	let lastConverted = Math.max(...files.map(file => fs.statSync(`src/routes/projects/p/${file.replace('.ipynb', '.svelte')}`).mtime));
+	if (lastModified < lastConverted) {
+		return files.map(file => file.replace('.ipynb', ''));
+	}
+	// list of ipynb files
+	const notebooks = fs.readdirSync('projects').filter(file => file.endsWith('.ipynb'));
+	// convert to svelte
+	notebooks.forEach(notebook => {
+		execSync(`jupyter2svelte convert --embed-images projects/${notebook}`);
+		let component = notebook.replace('.ipynb', '.svelte');
+		fs.renameSync(`projects/${component}`, `src/routes/projects/p/${component}`);
 	});
-	return fs.readdirSync('src/routes/projects').filter(file => file.endsWith('.html'));
+	console.log('Converted', notebooks);
+	return notebooks.map(notebook => notebook.replace('.ipynb', ''));
 }
 
 export default defineConfig({

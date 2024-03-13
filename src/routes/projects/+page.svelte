@@ -1,6 +1,5 @@
 <script>
-	let NOTEBOOKS = __NOTEBOOKS__;
-	console.log(NOTEBOOKS);
+	let notebooks = __NOTEBOOKS__;
 </script>
 
 <h1>Projects</h1>
@@ -11,9 +10,23 @@
 	<li>Prediction of Energy Usage of Household Electronic Devices with Hardware Energy Meters</li>
 </ul>
 TODO: add more details
-<!-- 
-<iframe
-	src="https://feruz.notion.site/Projects-27ed1e9243404e20998608ce4867e1e4"
-	style="border:none;width:100%;height:100vh;"
-	title="Projects"
-></iframe> -->
+<!-- list NOTEBOOKS -->
+<ul>
+	{#each notebooks as notebook}
+		<li>
+			<a
+				href={`/projects/p/${notebook}`}
+				on:click={(e) => {
+					e.preventDefault();
+					import(`./p/${notebook}.svelte`).then((module) => {
+						console.log(module.default);
+						const Component = module.default;
+						new Component({
+							target: document.body
+						});
+					});
+				}}>{notebook}</a
+			>
+		</li>
+	{/each}
+</ul>
