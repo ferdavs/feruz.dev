@@ -7,13 +7,14 @@ cv:
   social_networks:
     - network: LinkedIn
       username: feruz-davletov
-    - network: GitHub
-      username: ferdavs
+    # - network: GitHub
+      # username: ferdavs
   sections:
     summary:
       - "**Skilled software engineer** with a background in computer science. Presently, finished a Master's degree in Computer Science at Bayreuth University, with a research focus on chatbots to enhance language learning in groups. **Professional goal** is to reach a **Software Architect** position in the **next 5 years**, specializing in **AI Systems** and **Machine Learning**. **Passionate about learning new technologies** and **languages**."
     languages:
       - "Uzbek(native), Turkmen(native), Turkish(C2), **English(C1)**, Russian(B1) and **German(A2 and learning)**."
+
     technologies:
       - label: Programming Languages
         details: Java, Python 3+, C#.NET
@@ -25,44 +26,12 @@ cv:
         details: Git, Docker, GitLab CI/CD, Jira
       - label: Platforms
         details: Linux, Windows
+
     references:
       - bullet: "**Prof. Dr. Daniel Buschek**, *University of Bayreuth*, [Daniel.Buschek@uni-bayreuth.de](mailto:Daniel.Buschek@uni-bayreuth.de)"
       - bullet: "**Dr. Christina Schneegass**, *Delft University of Technology*, [C.Schneegass@tudelft.nl](mailto:C.Schneegass@tudelft.nl)"
       - bullet: "**Dr. Simon Pirkelmann**, *Fraunhofer ISC, HTL*, [simon.pirkelmann@isc.fraunhofer.de](mailto:simon.pirkelmann@isc.fraunhofer.de)"
-    education:
-      - start_date: 2020-10
-        end_date: 2024-03
-        location: Bayreuth, Germany
-        institution: University of Bayreuth  
-        area: Computer Science
-        degree: MS    
-        highlights:
-          - '**Thesis:** Exploring the Role of Chatbots in Group Language Learning.'
-          - Investigated the potential of chatbots to enhance language learning in group settings. The study focused on the design, implementation, and evaluation of chatbot interactions to facilitate collaborative learning and engagement.
-          - '**Projects:**'
-          - Optimizing Energy Consumption of Matrix Multiplication in CPU
-          - Google Maps-like Navigation with Voice
-          - Prediction of Energy Usage of Household Electronic Devices with Hardware Energy Meters
-      - start_date: 2013-09
-        end_date: 2016-06
-        location: Istanbul, Turkey
-        area: Computer Science  *discontinued*
-        degree: MS
-        highlights:
-          - '*The program was discontinued due to the university closure in 2016.*'
-          - Collaborated in the Data Science Lab on the Twitter Topic Strand project, analyzing social media discussions and participant dynamics.
-          - Contributed to the Bioinformatics Lab Metabolomics Data Analysis project, implementing algorithms for integrating Metabolic Networks with Gene Regulation Networks.
-        institution: Istanbul Sehir University 
-      - start_date: 2007-09
-        end_date: 2013-08
-        location: Istanbul, Turkey
-        highlights:
-          - Participated in RoboCup 2012 with the Robotics Lab, developing UI and communication software for managing 16 virtual robots in disaster scenarios, securing second place in the Virtual Rescue League twice.
-          - Worked in the Natural Languages Lab, focusing on feature extraction from Turkish texts and implementing NLP algorithms for text2arff conversion.
-        institution: Yildiz Technical University
-        area: Computer Engineering
-        degree: BS
-    
+
     experience:
       - start_date: 2021-12
         end_date: 2023-04
@@ -123,6 +92,40 @@ cv:
             Implemented asynchronous sensor-server communication.
             Increased number of connected sensors from 200 to 1000.
           - 'Technologies: **C#.NET, Serial, GPRS, TCP, UDP, Git**'
+
+    education:
+      - start_date: 2020-10
+        end_date: 2024-03
+        location: Bayreuth, Germany
+        institution: University of Bayreuth  
+        area: Computer Science
+        degree: MS    
+        highlights:
+          - '**Thesis:** Exploring the Role of Chatbots in Group Language Learning.'
+          - Investigated the potential of chatbots to enhance language learning in group settings. The study focused on the design, implementation, and evaluation of chatbot interactions to facilitate collaborative learning and engagement.
+          - '**Projects:**'
+          - Optimizing Energy Consumption of Matrix Multiplication in CPU
+          - Google Maps-like Navigation with Voice
+          - Prediction of Energy Usage of Household Electronic Devices with Hardware Energy Meters
+      - start_date: 2013-09
+        end_date: 2016-06
+        location: Istanbul, Turkey
+        area: Computer Science  *discontinued*
+        degree: MS
+        highlights:
+          - '*The program was discontinued due to the university closure in 2016.*'
+          - Collaborated in the Data Science Lab on the Twitter Topic Strand project, analyzing social media discussions and participant dynamics.
+          - Contributed to the Bioinformatics Lab Metabolomics Data Analysis project, implementing algorithms for integrating Metabolic Networks with Gene Regulation Networks.
+        institution: Istanbul Sehir University 
+      - start_date: 2007-09
+        end_date: 2013-08
+        location: Istanbul, Turkey
+        highlights:
+          - Participated in RoboCup 2012 with the Robotics Lab, developing UI and communication software for managing 16 virtual robots in disaster scenarios, securing second place in the Virtual Rescue League twice.
+          - Worked in the Natural Languages Lab, focusing on feature extraction from Turkish texts and implementing NLP algorithms for text2arff conversion.
+        institution: Yildiz Technical University
+        area: Computer Engineering
+        degree: BS
     
     publications:
       - title: 'High Impact Academic Paper Prediction Using Temporal and Topological Features'
@@ -151,33 +154,11 @@ cv:
 design:
   font_size: 10pt
   page_size: a4paper
-  # color: '#004f90'
   disable_page_numbering: false
   page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
   show_last_updated_date: false
   header_font_size: 26 pt
   text_alignment: justified
-  margins:
-    page:
-      top: 2 cm
-      bottom: 2 cm
-      left: 2 cm
-      right: 2 cm
-    section_title:
-      top: 0.3 cm
-      bottom: 0.2 cm
-    entry_area:
-      left_and_right: 0.2 cm
-      vertical_between: 0.2 cm
-      date_and_location_width: 4.1 cm
-    highlights_area:
-      top: 0.10 cm
-      left: 0.4 cm
-      vertical_between_bullet_points: 0.10 cm
-    header:
-      vertical_between_name_and_connections: 0.3 cm
-      bottom: 0.3 cm
-      horizontal_between_connections: 0.5 cm
   theme: classic
   show_timespan_in:
     - Experience

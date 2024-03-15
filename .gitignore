@@ -12,6 +12,7 @@ rendercv_output/*.*
 tmp/
 .idea/
 static/*pdf
+static/*html
 rendercv_output/
 .ipynb_checkpoints/
 .venv/

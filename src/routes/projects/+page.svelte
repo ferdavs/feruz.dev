@@ -6,7 +6,7 @@
 			console.log(module.default);
 			const Component = module.default;
 			new Component({
-				target: document.body
+				// target: document.body
 			});
 		});
 	});

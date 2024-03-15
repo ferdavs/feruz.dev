@@ -65,7 +65,7 @@ Uzbek(native), Turkmen(native), Turkish(C2), **English(C1)**, Russian(B1) and **
 - Sensor data monitoring was challenging. Implemented visualization tool using PyQt 5 and PyQTGraph.
 - Historical sensor data processing workflows were inefficient. Created Python library to parse and reformat data using pandas. Streamlined data processing workflows for historical sensor data.
 - Set up GitLab CICD for Linux and Windows deployments. Enabled automated deployment processes for both environments.
-- Technologies: **Python, InfluxDB, PyQt5, PyQTGraph, GitLab CI/CD, Pandas, Git, Docker, pandas, numpy**
+- Technologies: **Python, InfluxDB, PyQt5, PyQTGraph, GitLab CI/CD, Pandas, Git, Docker, numpy**
 
 ## CROSSOVER, **Java Software Engineer**
 
