@@ -80,7 +80,7 @@ cv:
             Streamlined data processing workflows for historical sensor data.
           - Set up GitLab CICD for Linux and Windows deployments.
             Enabled automated deployment processes for both environments.
-          - 'Technologies: **Python, InfluxDB, PyQt5, PyQTGraph, GitLab CI/CD, Pandas, Git, Docker, pandas, numpy**'
+          - 'Technologies: **Python, InfluxDB, PyQt5, PyQTGraph, GitLab CI/CD, Pandas, Git, Docker, numpy**'
 
       - start_date: 2018-07
         end_date: 2020-08
