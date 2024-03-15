@@ -1,6 +1,6 @@
 {
   "name": "feruz-dev",
-  "version": "2024.02.27",
+  "version": "2024.03.15",
   "private": true,
   "scripts": {
     "dev": "vite dev",
