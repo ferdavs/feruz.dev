@@ -31,6 +31,12 @@ function renderCV() {
 		if (readme) {
 			fs.copyFileSync(`${source}/${readme}`, `README.md`);
 		}
+
+		let tex = files.find(file => file.endsWith('CV.tex'));
+		if (tex) {
+			execSync(`pandoc -f latex -t html -o static/cv.html ./${source}/${tex}`);
+		}
+
 		// files.forEach(file => {
 		// 	fs.unlinkSync(`${source}/${file}`);
 		// });

@@ -12,6 +12,7 @@ cv:
   sections:
     summary:
       - "**Skilled software engineer** with a background in computer science. Presently, finished a Master's degree in Computer Science at Bayreuth University, with a research focus on chatbots to enhance language learning in groups. **Professional goal** is to reach a **Software Architect** position in the **next 5 years**, specializing in **AI Systems** and **Machine Learning**. **Passionate about learning new technologies** and **languages**."
+    
     languages:
       - "Uzbek(native), Turkmen(native), Turkish(C2), **English(C1)**, Russian(B1) and **German(A2 and learning)**."
 
@@ -24,11 +25,9 @@ cv:
         details: PostgreSQL, InfluxDB, Redis
       - label: Tools
         details: Git, Docker, GitLab CI/CD, Jira
-      - label: Platforms
-        details: Linux, Windows
 
     references:
-      - bullet: "**Prof. Dr. Daniel Buschek**, *University of Bayreuth*, [Daniel.Buschek@uni-bayreuth.de](mailto:Daniel.Buschek@uni-bayreuth.de)"
+      - bullet: "**[Prof. Dr. Daniel Buschek**, *University of Bayreuth*, [Daniel.Buschek@uni-bayreuth.de](mailto:Daniel.Buschek@uni-bayreuth.de)"
       - bullet: "**Dr. Christina Schneegass**, *Delft University of Technology*, [C.Schneegass@tudelft.nl](mailto:C.Schneegass@tudelft.nl)"
       - bullet: "**Dr. Simon Pirkelmann**, *Fraunhofer ISC, HTL*, [simon.pirkelmann@isc.fraunhofer.de](mailto:simon.pirkelmann@isc.fraunhofer.de)"
 
@@ -149,8 +148,8 @@ cv:
     additional_experience_and_awards:
       - label: RoboCup 2012 Mexico
         details: 2. Place in RoboCup 2012 Rescue Simulation League 
-      - label: RoboCup 2012 Iran Open
-        details: 2. Place in RoboCup 2012 Rescue Simulation League
+      # - label: RoboCup 2012 Iran Open
+        # details: 2. Place in RoboCup 2012 Rescue Simulation League
 design:
   font_size: 10pt
   page_size: a4paper

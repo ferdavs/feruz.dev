@@ -4,7 +4,6 @@
 - Location: Bayreuth, Germany
 - Website: [feruz.dev](https://feruz.dev/)
 - LinkedIn: [feruz-davletov](https://linkedin.com/in/feruz-davletov)
-- GitHub: [ferdavs](https://github.com/ferdavs)
 
 
 # Summary
@@ -21,40 +20,11 @@ Uzbek(native), Turkmen(native), Turkish(C2), **English(C1)**, Russian(B1) and **
 - Frameworks: FastAPI, Django, Flask, Spring, Play Framework, PyQT5, PyQTGraph, NumPy, pandas, sci-kit-learn, PyTorch, TensorFlow(Keras)
 - Databases: PostgreSQL, InfluxDB, Redis
 - Tools: Git, Docker, GitLab CI/CD, Jira
-- Platforms: Linux, Windows
 # References
 
-- **Prof. Dr. Daniel Buschek**, *University of Bayreuth*, [Daniel.Buschek@uni-bayreuth.de](mailto:Daniel.Buschek@uni-bayreuth.de)
+- **[Prof. Dr. Daniel Buschek**, *University of Bayreuth*, [Daniel.Buschek@uni-bayreuth.de](mailto:Daniel.Buschek@uni-bayreuth.de)
 - **Dr. Christina Schneegass**, *Delft University of Technology*, [C.Schneegass@tudelft.nl](mailto:C.Schneegass@tudelft.nl)
 - **Dr. Simon Pirkelmann**, *Fraunhofer ISC, HTL*, [simon.pirkelmann@isc.fraunhofer.de](mailto:simon.pirkelmann@isc.fraunhofer.de)
-# Education
-
-## University of Bayreuth, MS in Computer Science
-
-- Oct. 2020 to Mar. 2024 
-- Bayreuth, Germany 
-- **Thesis:** Exploring the Role of Chatbots in Group Language Learning.
-- Investigated the potential of chatbots to enhance language learning in group settings. The study focused on the design, implementation, and evaluation of chatbot interactions to facilitate collaborative learning and engagement.
-- **Projects:**
-- Optimizing Energy Consumption of Matrix Multiplication in CPU
-- Google Maps-like Navigation with Voice
-- Prediction of Energy Usage of Household Electronic Devices with Hardware Energy Meters
-
-## Istanbul Sehir University, MS in Computer Science  *discontinued*
-
-- Sept. 2013 to June 2016 
-- Istanbul, Turkey 
-- *The program was discontinued due to the university closure in 2016.*
-- Collaborated in the Data Science Lab on the Twitter Topic Strand project, analyzing social media discussions and participant dynamics.
-- Contributed to the Bioinformatics Lab Metabolomics Data Analysis project, implementing algorithms for integrating Metabolic Networks with Gene Regulation Networks.
-
-## Yildiz Technical University, BS in Computer Engineering
-
-- Sept. 2007 to Aug. 2013 
-- Istanbul, Turkey 
-- Participated in RoboCup 2012 with the Robotics Lab, developing UI and communication software for managing 16 virtual robots in disaster scenarios, securing second place in the Virtual Rescue League twice.
-- Worked in the Natural Languages Lab, focusing on feature extraction from Turkish texts and implementing NLP algorithms for text2arff conversion.
-
 # Experience
 
 ## FRAUNHOFER ISC-HTL, **Software Engineer - Student Assistant**
@@ -91,6 +61,34 @@ Uzbek(native), Turkmen(native), Turkish(C2), **English(C1)**, Russian(B1) and **
 - Server could connect only 200 sensors. Implemented asynchronous sensor-server communication. Increased number of connected sensors from 200 to 1000.
 - Technologies: **C#.NET, Serial, GPRS, TCP, UDP, Git**
 
+# Education
+
+## University of Bayreuth, MS in Computer Science
+
+- Oct. 2020 to Mar. 2024 
+- Bayreuth, Germany 
+- **Thesis:** Exploring the Role of Chatbots in Group Language Learning.
+- Investigated the potential of chatbots to enhance language learning in group settings. The study focused on the design, implementation, and evaluation of chatbot interactions to facilitate collaborative learning and engagement.
+- **Projects:**
+- Optimizing Energy Consumption of Matrix Multiplication in CPU
+- Google Maps-like Navigation with Voice
+- Prediction of Energy Usage of Household Electronic Devices with Hardware Energy Meters
+
+## Istanbul Sehir University, MS in Computer Science  *discontinued*
+
+- Sept. 2013 to June 2016 
+- Istanbul, Turkey 
+- *The program was discontinued due to the university closure in 2016.*
+- Collaborated in the Data Science Lab on the Twitter Topic Strand project, analyzing social media discussions and participant dynamics.
+- Contributed to the Bioinformatics Lab Metabolomics Data Analysis project, implementing algorithms for integrating Metabolic Networks with Gene Regulation Networks.
+
+## Yildiz Technical University, BS in Computer Engineering
+
+- Sept. 2007 to Aug. 2013 
+- Istanbul, Turkey 
+- Participated in RoboCup 2012 with the Robotics Lab, developing UI and communication software for managing 16 virtual robots in disaster scenarios, securing second place in the Virtual Rescue League twice.
+- Worked in the Natural Languages Lab, focusing on feature extraction from Turkish texts and implementing NLP algorithms for text2arff conversion.
+
 # Publications
 
 ## High Impact Academic Paper Prediction Using Temporal and Topological Features ([10.1145/2661829.2662066](https://doi.org/10.1145/2661829.2662066))
@@ -104,4 +102,3 @@ Uzbek(native), Turkmen(native), Turkish(C2), **English(C1)**, Russian(B1) and **
 # Additional Experience And Awards
 
 - RoboCup 2012 Mexico: 2. Place in RoboCup 2012 Rescue Simulation League
-- RoboCup 2012 Iran Open: 2. Place in RoboCup 2012 Rescue Simulation League
