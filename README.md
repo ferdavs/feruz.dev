@@ -12,7 +12,7 @@
 
 # Languages
 
-Uzbek(native), Turkmen(native), Turkish(C2), **English(C1)**, Russian(B1) and **German(A2 and learning)**.
+Uzbek(native), Turkmen(native), Turkish(C2), **English(C1), and German(A2 and learning)**.
 
 # Technologies
 
@@ -27,7 +27,7 @@ Uzbek(native), Turkmen(native), Turkish(C2), **English(C1)**, Russian(B1) and **
 - **Dr. Simon Pirkelmann**, *Fraunhofer ISC, HTL*, [simon.pirkelmann@isc.fraunhofer.de](mailto:simon.pirkelmann@isc.fraunhofer.de)
 # Experience
 
-## FRAUNHOFER ISC-HTL, **Software Engineer - Student Assistant**
+## Fraunhofer ISC-HTL, Software Engineer - Student Assistant
 
 - Dec. 2021 to Apr. 2023 
 - Bayreuth, Germany 
@@ -37,15 +37,15 @@ Uzbek(native), Turkmen(native), Turkish(C2), **English(C1)**, Russian(B1) and **
 - Set up GitLab CICD for Linux and Windows deployments. Enabled automated deployment processes for both environments.
 - Technologies: **Python, InfluxDB, PyQt5, PyQTGraph, GitLab CI/CD, Pandas, Git, Docker, numpy**
 
-## CROSSOVER, **Java Software Engineer**
+## Crossover, Java Software Engineer
 
 - July 2018 to Aug. 2020 
-- Full Remote 
+- Remote 
 - Critical issues and performance challenges affected reliability. Resolved issues and improved performance in maintenance team. Enhanced platform's reliability and user experience.
 - Platform integration with collaboration tools needed rewrite. Fixed with Microsoft O365, SharePoint, Google Drive, and Box. Users gained reliable and improved functionality.
 - Technologies: **Java, Spring, Microservices, Microsoft O365, SharePoint, Google Drive, Box, Docker, Jira**
 
-## KOLEKTIF HOUSE, **Java Backend and Android Engineer**
+## Kollektif House, Java Backend and Android Engineer
 
 - May 2017 to July 2018 
 - Istanbul, Turkey 
@@ -53,13 +53,13 @@ Uzbek(native), Turkmen(native), Turkish(C2), **English(C1)**, Russian(B1) and **
 - Galatasaray Football Team fan experience needed enhancement. Contributed to developing Java backend and Android app. Improved fan engagement and digital experience.
 - Technologies: **Java, Android, Play Framework, PostgreSQL, Docker, Asana, Git**
 
-## MAVILI ELEKTRONIK, **Software Engineer**
+## Mavili Elektronik, Software Engineer
 
 - July 2013 to Aug. 2015 
 - Istanbul, Turkey 
 - Fire and smoke detection software had limited communication. Developed software from scratch with Serial, GPRS, and TCP communication. Enhanced communication capabilities and system functionality.
 - Server could connect only 200 sensors. Implemented asynchronous sensor-server communication. Increased number of connected sensors from 200 to 1000.
-- Technologies: **C#.NET, Serial, GPRS, TCP, UDP, Git**
+- Technologies: **C#.NET,MS SQL Server, RS232, GPRS, TCP, UDP, Git**
 
 # Education
 

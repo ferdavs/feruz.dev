@@ -14,7 +14,7 @@ cv:
       - "**Skilled software engineer** with a background in computer science. Presently, finished a Master's degree in Computer Science at Bayreuth University, with a research focus on chatbots to enhance language learning in groups. **Professional goal** is to reach a **Software Architect** position in the **next 5 years**, specializing in **AI Systems** and **Machine Learning**. **Passionate about learning new technologies** and **languages**."
     
     languages:
-      - "Uzbek(native), Turkmen(native), Turkish(C2), **English(C1)**, Russian(B1) and **German(A2 and learning)**."
+      - "Uzbek(native), Turkmen(native), Turkish(C2), **English(C1), and German(A2 and learning)**."
 
     technologies:
       - label: Programming Languages
@@ -32,11 +32,11 @@ cv:
       - bullet: "**Dr. Simon Pirkelmann**, *Fraunhofer ISC, HTL*, [simon.pirkelmann@isc.fraunhofer.de](mailto:simon.pirkelmann@isc.fraunhofer.de)"
 
     experience:
-      - start_date: 2021-12
+      - company: 'Fraunhofer ISC-HTL'
+        position: 'Software Engineer - Student Assistant'
+        start_date: 2021-12
         end_date: 2023-04
         location: Bayreuth, Germany
-        position: '**Software Engineer - Student Assistant**'
-        company: 'FRAUNHOFER ISC-HTL'
         highlights:
           - Sensor data from InfluxDB was hard to use for analysis.
             Developed software for data acquisition, enhancing usability.
@@ -50,11 +50,11 @@ cv:
             Enabled automated deployment processes for both environments.
           - 'Technologies: **Python, InfluxDB, PyQt5, PyQTGraph, GitLab CI/CD, Pandas, Git, Docker, numpy**'
 
-      - start_date: 2018-07
+      - company: Crossover
+        position: 'Java Software Engineer'
+        start_date: 2018-07
         end_date: 2020-08
-        location: Full Remote
-        company: CROSSOVER
-        position: '**Java Software Engineer**'
+        location: Remote
         highlights:
           - Critical issues and performance challenges affected reliability.
             Resolved issues and improved performance in maintenance team.
@@ -64,11 +64,11 @@ cv:
             Users gained reliable and improved functionality.
           - 'Technologies: **Java, Spring, Microservices, Microsoft O365, SharePoint, Google Drive, Box, Docker, Jira**'
 
-      - start_date: 2017-05
+      - company: 'Kollektif House'
+        position: 'Java Backend and Android Engineer'
+        start_date: 2017-05
         end_date: 2018-07
         location: Istanbul, Turkey
-        company: KOLEKTIF HOUSE  
-        position: '**Java Backend and Android Engineer**'
         highlights:
           - Financial portfolio app lacked additional analysis and metrics like beta, sharpe ratio etc.
             Contributed to developing analysis with insights and analytics.
@@ -78,11 +78,11 @@ cv:
             Improved fan engagement and digital experience.
           - 'Technologies: **Java, Android, Play Framework, PostgreSQL, Docker, Asana, Git**'
 
-      - start_date: 2013-07
+      - company: 'Mavili Elektronik'
+        position: 'Software Engineer'
+        start_date: 2013-07
         end_date: 2015-08
         location: Istanbul, Turkey
-        company: MAVILI ELEKTRONIK 
-        position: '**Software Engineer**'
         highlights:
           - Fire and smoke detection software had limited communication.
             Developed software from scratch with Serial, GPRS, and TCP communication.
@@ -90,7 +90,7 @@ cv:
           - Server could connect only 200 sensors.
             Implemented asynchronous sensor-server communication.
             Increased number of connected sensors from 200 to 1000.
-          - 'Technologies: **C#.NET, Serial, GPRS, TCP, UDP, Git**'
+          - 'Technologies: **C#.NET,MS SQL Server, RS232, GPRS, TCP, UDP, Git**'
 
     education:
       - start_date: 2020-10
@@ -159,5 +159,5 @@ design:
   header_font_size: 26 pt
   text_alignment: justified
   theme: classic
-  show_timespan_in:
-    - Experience
+  # show_timespan_in:
+  #   - Experience
