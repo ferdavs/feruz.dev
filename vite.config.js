@@ -69,7 +69,7 @@ export default defineConfig({
 	plugins: [sveltekit()],
 	define: {
 		__CV_PATH__: renderCV(),
-		__NOTEBOOKS__: convertNotebooks(),
+		// __NOTEBOOKS__: convertNotebooks(),
 		__APP_VERSION__: JSON.stringify(require('./package.json').version),
 	}
 });
