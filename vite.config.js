@@ -65,11 +65,16 @@ function convertNotebooks() {
 	return notebooks.map(notebook => notebook.replace('.ipynb', ''));
 }
 
+function listPdf() {
+	return fs.readdirSync('static').filter(file => file.endsWith('.pdf') && file !== 'cv.pdf');
+}
+
 export default defineConfig({
 	plugins: [sveltekit()],
 	define: {
 		__CV_PATH__: renderCV(),
 		// __NOTEBOOKS__: convertNotebooks(),
+		__PDFS__: listPdf(),
 		__APP_VERSION__: JSON.stringify(require('./package.json').version),
 	}
 });

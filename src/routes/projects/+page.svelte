@@ -1,5 +1,6 @@
 <script>
-	let notebooks = __NOTEBOOKS__;
+	// let notebooks = __NOTEBOOKS__;
+	let pdfs = __PDFS__;
 	// import notesbooks dynamically and store them in a variable
 	// components = notebooks.map((notebook, index) => {
 	// 	import(`./p/${notebook}.svelte`).then((module) => {
@@ -19,10 +20,10 @@
 	<li>Google Maps-like Navigation with Voice</li>
 	<li>Prediction of Energy Usage of Household Electronic Devices with Hardware Energy Meters</li>
 </ul>
-TODO: add more details
+TODO: convert below pdfs to html
 <ul>
-	{#each notebooks as notebook}
-		<!-- <li><a href="/projects/p/{notebook}">{notebook}</a></li> -->
+	{#each pdfs as pdf}
+		<li><a href={pdf}>{pdf}</a></li>
 	{/each}
 </ul>
 <!-- clicking  -->
