@@ -1,7 +1,7 @@
 cv:
   name: Feruz Davletov
   location: Bayreuth, Germany
-  email: f3hvpxn7v@mozmail.com
+  email: resume@fer.mozmail.com
   # phone: tel:+90-541-999-99-99
   website: https://feruz.dev
   social_networks:
@@ -11,7 +11,7 @@ cv:
       # username: ferdavs
   sections:
     summary:
-      - "I am a **skilled software engineer** with a background in **computer science**. I have finished a **Master's degree** in Computer Science at Bayreuth University, with a research focus on chatbots to enhance language learning in groups. My **professional goal** is to reach a **Software Architect** position in the **next five years**, specializing in **AI Systems**. I am **passionate about learning new technologies and languages**."
+      - "I am a **skilled software engineer** with a background in **computer science**. I have finished a **Master's degree** in Computer  Science at Bayreuth University, with a research focus on chatbots to enhance language learning in groups. My **professional goal** is to reach a **Software Architect** position in the **next five years**, specializing in **AI Systems**. I am **passionate about learning new technologies and languages**."
     
     languages:
       - "Uzbek(native), Turkmen(native), Turkish(C2), **English(C1), and German(A2 and learning)**."

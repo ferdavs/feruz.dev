@@ -1,6 +1,6 @@
 # Feruz Davletov's CV
 
-- Email: [f3hvpxn7v@mozmail.com](mailto:f3hvpxn7v@mozmail.com)
+- Email: [resume@fer.mozmail.com](mailto:resume@fer.mozmail.com)
 - Location: Bayreuth, Germany
 - Website: [feruz.dev](https://feruz.dev/)
 - LinkedIn: [feruz-davletov](https://linkedin.com/in/feruz-davletov)
@@ -8,7 +8,7 @@
 
 # Summary
 
-I am a **skilled software engineer** with a background in **computer science**. I have finished a **Master's degree** in Computer Science at Bayreuth University, with a research focus on chatbots to enhance language learning in groups. My **professional goal** is to reach a **Software Architect** position in the **next five years**, specializing in **AI Systems**. I am **passionate about learning new technologies and languages**.
+I am a **skilled software engineer** with a background in **computer science**. I have finished a **Master's degree** in Computer  Science at Bayreuth University, with a research focus on chatbots to enhance language learning in groups. My **professional goal** is to reach a **Software Architect** position in the **next five years**, specializing in **AI Systems**. I am **passionate about learning new technologies and languages**.
 
 # Languages
 
