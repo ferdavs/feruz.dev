@@ -19,41 +19,41 @@ Uzbek(native), Turkmen(native), Turkish(C2), Russian(B1), **English(C1), and Ger
 - Programming Languages: Java, Python 3+, C#.NET
 - Frameworks: FastAPI, Django, Flask, Spring, Play Framework, PyQT5, PyQTGraph, NumPy, pandas, sci-kit-learn, PyTorch, TensorFlow(Keras)
 - Databases: PostgreSQL, InfluxDB, Redis
-- Other: Git, Docker, GitLab CI/CD, Jira, Test-Driven Development, Object-Oriented Programming, RESTful API, Microservices, JUnit, Mockito, Pytest
+- Other: Git, Docker, GitLab CI/CD, Jira, Test-Driven Development, Object-Oriented Programming, RESTful API, ETL, Microservices, JUnit, Mockito, Pytest
 # Experience
 
 ## Fraunhofer ISC-HTL, Software Engineer - Student Assistant
 
 - Dec. 2021 to Apr. 2024 
 - Bayreuth, Germany 
-- Sensor data from InfluxDB was complex to analyze. I developed software to acquire and analyze sensor data, improving usability and efficiency.
-- Sensor data monitoring was challenging. Implemented visualization tool using PyQt 5 and PyQTGraph.
-- I developed a Python library to parse and reformat historical sensor data using pandas, streamlining data processing workflows.
-- I assisted in configuring GitLab CICD for Linux and Windows deployments, and implemented automated deployment processes for both environments.
-- Technologies: **Python, InfluxDB, PyQt5, PyQTGraph, GitLab CI/CD, Pandas, Git, Docker, numpy**
+- Developed a Python library to fetch and format sensor data, improving usability.
+- Developed a Python library to parse and reformat historical sensor data using pandas.
+- Developed visualization tool using PyQt and PyQTGraph.
+- Assisted in configuring GitLab CICD for Linux and Windows deployments, and implemented automated deployment processes for both environments.
+- Technologies: **Python, InfluxDB, ETL, PyQt5, PyQTGraph, GitLab CI/CD, Pandas, Git, Docker, numpy**
 
 ## Crossover, Java Software Engineer
 
 - July 2018 to Aug. 2020 
 - Remote 
-- Critical issues and performance challenges affecting reliability have been resolved. As a member of maintenance team of **Jive software**, contributed to the platform's reliability by fixing critical issues.
-- Platform integration with tools needed rewriting. Issues related to Microsoft O365, SharePoint, Google Drive, and Box were fixed. As a result users gained reliable and improved functionality.
+- As a member of maintenance team of **Jive software**, contributed to the platform's reliability by fixing critical issues.
+- Fixed issues related to integration with Microsoft O365, SharePoint, Google Drive, and Box.
 - Technologies: **Java, Spring, Microservices, RestApi, Microsoft O365, SharePoint, Google Drive, Box, Docker, Jira**
 
 ## Kollektif House, Java Backend and Android Engineer
 
 - May 2017 to July 2018 
 - Istanbul, Turkey 
-- The financial portfolio app lacked additional analysis and metrics like beta, Sharpe ratio, etc. I contributed to developing analysis with insights and analytics, providing users with informed investment decision-making capabilities.
-- The Galatasaray Football Team's fan experience needed enhancement. I contributed to developing the Java backend and Android app, improving fan engagement and digital experience.
+- Added needed financial portfolio analysis and metrics like beta, Sharpe ratio, etc.
+- Contributed to developing the Java backend and Android app, improving fan engagement and digital experience.
 - Technologies: **Java, Android, Play Framework,Django,Javascript,RestApi, PostgreSQL, Docker, Asana, Git**
 
 ## Mavili Elektronik, Software Engineer
 
 - July 2013 to Aug. 2015 
 - Istanbul, Turkey 
-- Fire and smoke detection software had limited communication. I have developed software from scratch with Serial, GPRS, and TCP communication, enhancing communication capabilities and system functionality.
-- Server could connect only 200 sensors. Implemented asynchronous sensor-server communication. Increased number of connected sensors from 200 to 1000.
+- Developed software from scratch for Serial, GPRS, and TCP communication.
+- Implemented asynchronous sensor-server communication, which increased number of connected sensors from 200 to 1000.
 - Technologies: **C#.NET,MS SQL Server, RS232, GPRS, TCP, UDP, Git**
 
 # Education
