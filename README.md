@@ -8,23 +8,18 @@
 
 # Summary
 
-I am a **skilled software engineer** with a background in **computer science**. I have finished a **Master's degree** in Computer  Science at Bayreuth University, with a research focus on chatbots to enhance language learning in groups. My **professional goal** is to reach a **Software Architect** position in the **next five years**, specializing in **AI Systems**. I am **passionate about learning new technologies and languages**.
+I am a **skilled software engineer** with a solid knowledge of OOP with Java and Python. I have finished a **Master's degree** in Computer  Science at Bayreuth University, with a research focus on chatbots to enhance language learning in groups. My **professional goal** is to reach a **Software Architect** position in the **next five years**. I am **passionate about learning new technologies and languages**.
 
 # Languages
 
-Uzbek(native), Turkmen(native), Turkish(C2), **English(C1), and German(A2 and learning)**.
+Uzbek(native), Turkmen(native), Turkish(C2), Russian(B1), **English(C1), and German(A2 and learning)**.
 
 # Technologies
 
 - Programming Languages: Java, Python 3+, C#.NET
 - Frameworks: FastAPI, Django, Flask, Spring, Play Framework, PyQT5, PyQTGraph, NumPy, pandas, sci-kit-learn, PyTorch, TensorFlow(Keras)
 - Databases: PostgreSQL, InfluxDB, Redis
-- Tools: Git, Docker, GitLab CI/CD, Jira
-# References
-
-- **Prof. Dr. Daniel Buschek**, *University of Bayreuth*, [Daniel.Buschek@uni-bayreuth.de](mailto:Daniel.Buschek@uni-bayreuth.de)
-- **Dr. Christina Schneegass**, *Delft University of Technology*, [C.Schneegass@tudelft.nl](mailto:C.Schneegass@tudelft.nl)
-- **Dr. Simon Pirkelmann**, *Fraunhofer ISC, HTL*, [simon.pirkelmann@isc.fraunhofer.de](mailto:simon.pirkelmann@isc.fraunhofer.de)
+- Other: Git, Docker, GitLab CI/CD, Jira, Test-Driven Development, Object-Oriented Programming, RESTful API, Microservices, JUnit, Mockito, Pytest
 # Experience
 
 ## Fraunhofer ISC-HTL, Software Engineer - Student Assistant
@@ -41,9 +36,9 @@ Uzbek(native), Turkmen(native), Turkish(C2), **English(C1), and German(A2 and le
 
 - July 2018 to Aug. 2020 
 - Remote 
-- Critical issues and performance challenges affecting reliability have been resolved. The maintenance team improved the platform's reliability and user experience.
+- Critical issues and performance challenges affecting reliability have been resolved. As a member of maintenance team of **Jive software**, contributed to the platform's reliability by fixing critical issues.
 - Platform integration with tools needed rewriting. Issues related to Microsoft O365, SharePoint, Google Drive, and Box were fixed. As a result users gained reliable and improved functionality.
-- Technologies: **Java, Spring, Microservices, Microsoft O365, SharePoint, Google Drive, Box, Docker, Jira**
+- Technologies: **Java, Spring, Microservices, RestApi, Microsoft O365, SharePoint, Google Drive, Box, Docker, Jira**
 
 ## Kollektif House, Java Backend and Android Engineer
 
@@ -51,7 +46,7 @@ Uzbek(native), Turkmen(native), Turkish(C2), **English(C1), and German(A2 and le
 - Istanbul, Turkey 
 - The financial portfolio app lacked additional analysis and metrics like beta, Sharpe ratio, etc. I contributed to developing analysis with insights and analytics, providing users with informed investment decision-making capabilities.
 - The Galatasaray Football Team's fan experience needed enhancement. I contributed to developing the Java backend and Android app, improving fan engagement and digital experience.
-- Technologies: **Java, Android, Play Framework, PostgreSQL, Docker, Asana, Git**
+- Technologies: **Java, Android, Play Framework,Django,Javascript,RestApi, PostgreSQL, Docker, Asana, Git**
 
 ## Mavili Elektronik, Software Engineer
 
@@ -99,6 +94,11 @@ Uzbek(native), Turkmen(native), Turkish(C2), **English(C1), and German(A2 and le
 - Apr. 2010
 - M. Fatih Amasyali, Feruz Davletov, Arslan Torayew, Umit Ciftci
 - IEEE 
+# References
+
+- **Prof. Dr. Daniel Buschek**, *University of Bayreuth*, [Daniel.Buschek@uni-bayreuth.de](mailto:Daniel.Buschek@uni-bayreuth.de)
+- **Dr. Christina Schneegass**, *Delft University of Technology*, [C.Schneegass@tudelft.nl](mailto:C.Schneegass@tudelft.nl)
+- **Dr. Simon Pirkelmann**, *Fraunhofer ISC, HTL*, [simon.pirkelmann@isc.fraunhofer.de](mailto:simon.pirkelmann@isc.fraunhofer.de)
 # Additional Experience And Awards
 
 - RoboCup 2012 Mexico: 2. Place in RoboCup 2012 Rescue Simulation League

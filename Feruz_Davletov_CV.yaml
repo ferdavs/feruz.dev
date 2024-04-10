@@ -11,10 +11,10 @@ cv:
       # username: ferdavs
   sections:
     summary:
-      - "I am a **skilled software engineer** with a background in **computer science**. I have finished a **Master's degree** in Computer  Science at Bayreuth University, with a research focus on chatbots to enhance language learning in groups. My **professional goal** is to reach a **Software Architect** position in the **next five years**, specializing in **AI Systems**. I am **passionate about learning new technologies and languages**."
+      - "I am a **skilled software engineer** with a solid knowledge of OOP with Java and Python. I have finished a **Master's degree** in Computer  Science at Bayreuth University, with a research focus on chatbots to enhance language learning in groups. My **professional goal** is to reach a **Software Architect** position in the **next five years**. I am **passionate about learning new technologies and languages**."
     
     languages:
-      - "Uzbek(native), Turkmen(native), Turkish(C2), **English(C1), and German(A2 and learning)**."
+      - "Uzbek(native), Turkmen(native), Turkish(C2), Russian(B1), **English(C1), and German(A2 and learning)**."
 
     technologies:
       - label: Programming Languages
@@ -23,13 +23,8 @@ cv:
         details: FastAPI, Django, Flask, Spring, Play Framework, PyQT5, PyQTGraph, NumPy, pandas, sci-kit-learn, PyTorch, TensorFlow(Keras)
       - label: Databases
         details: PostgreSQL, InfluxDB, Redis
-      - label: Tools
-        details: Git, Docker, GitLab CI/CD, Jira
-
-    references:
-      - bullet: "**Prof. Dr. Daniel Buschek**, *University of Bayreuth*, [Daniel.Buschek@uni-bayreuth.de](mailto:Daniel.Buschek@uni-bayreuth.de)"
-      - bullet: "**Dr. Christina Schneegass**, *Delft University of Technology*, [C.Schneegass@tudelft.nl](mailto:C.Schneegass@tudelft.nl)"
-      - bullet: "**Dr. Simon Pirkelmann**, *Fraunhofer ISC, HTL*, [simon.pirkelmann@isc.fraunhofer.de](mailto:simon.pirkelmann@isc.fraunhofer.de)"
+      - label: Other
+        details: Git, Docker, GitLab CI/CD, Jira, Test-Driven Development, Object-Oriented Programming, RESTful API, ETL, Microservices, JUnit, Mockito, Pytest
 
     experience:
       - company: 'Fraunhofer ISC-HTL'
@@ -38,13 +33,11 @@ cv:
         end_date: 2024-04
         location: Bayreuth, Germany
         highlights:
-          - Sensor data from InfluxDB was complex to analyze.
-            I developed software to acquire and analyze sensor data, improving usability and efficiency.
-          - Sensor data monitoring was challenging. 
-            Implemented visualization tool using PyQt 5 and PyQTGraph.
-          - I developed a Python library to parse and reformat historical sensor data using pandas, streamlining data processing workflows.
-          - I assisted in configuring GitLab CICD for Linux and Windows deployments, and implemented automated deployment processes for both environments.
-          - 'Technologies: **Python, InfluxDB, PyQt5, PyQTGraph, GitLab CI/CD, Pandas, Git, Docker, numpy**'
+          - Developed a Python library to fetch and format sensor data, improving usability.
+          - Developed a Python library to parse and reformat historical sensor data using pandas.
+          - Developed visualization tool using PyQt and PyQTGraph.
+          - Assisted in configuring GitLab CICD for Linux and Windows deployments, and implemented automated deployment processes for both environments.
+          - 'Technologies: **Python, InfluxDB, ETL, PyQt5, PyQTGraph, GitLab CI/CD, Pandas, Git, Docker, numpy**'
 
       - company: Crossover
         position: 'Java Software Engineer'
@@ -52,12 +45,9 @@ cv:
         end_date: 2020-08
         location: Remote
         highlights:
-          - Critical issues and performance challenges affecting reliability have been resolved. 
-            The maintenance team improved the platform's reliability and user experience.
-          - Platform integration with tools needed rewriting. 
-            Issues related to Microsoft O365, SharePoint, Google Drive, and Box were fixed. 
-            As a result users gained reliable and improved functionality.
-          - 'Technologies: **Java, Spring, Microservices, Microsoft O365, SharePoint, Google Drive, Box, Docker, Jira**'
+          - As a member of maintenance team of **Jive software**, contributed to the platform's reliability by fixing critical issues.
+          - Fixed issues related to integration with Microsoft O365, SharePoint, Google Drive, and Box. 
+          - 'Technologies: **Java, Spring, Microservices, RestApi, Microsoft O365, SharePoint, Google Drive, Box, Docker, Jira**'
 
       - company: 'Kollektif House'
         position: 'Java Backend and Android Engineer'
@@ -65,12 +55,9 @@ cv:
         end_date: 2018-07
         location: Istanbul, Turkey
         highlights:
-          - The financial portfolio app lacked additional analysis and metrics like beta, Sharpe ratio, etc. 
-            I contributed to developing analysis with insights and analytics, 
-            providing users with informed investment decision-making capabilities.
-          - The Galatasaray Football Team's fan experience needed enhancement. 
-            I contributed to developing the Java backend and Android app, improving fan engagement and digital experience.
-          - 'Technologies: **Java, Android, Play Framework, PostgreSQL, Docker, Asana, Git**'
+          - Added needed financial portfolio analysis and metrics like beta, Sharpe ratio, etc. 
+          - Contributed to developing the Java backend and Android app, improving fan engagement and digital experience.
+          - 'Technologies: **Java, Android, Play Framework,Django,Javascript,RestApi, PostgreSQL, Docker, Asana, Git**'
 
       - company: 'Mavili Elektronik'
         position: 'Software Engineer'
@@ -78,12 +65,8 @@ cv:
         end_date: 2015-08
         location: Istanbul, Turkey
         highlights:
-          - Fire and smoke detection software had limited communication. 
-            I have developed software from scratch with Serial, GPRS, and TCP communication, 
-            enhancing communication capabilities and system functionality.
-          - Server could connect only 200 sensors.
-            Implemented asynchronous sensor-server communication.
-            Increased number of connected sensors from 200 to 1000.
+          - Developed software from scratch for Serial, GPRS, and TCP communication.
+          - Implemented asynchronous sensor-server communication, which increased number of connected sensors from 200 to 1000.
           - 'Technologies: **C#.NET,MS SQL Server, RS232, GPRS, TCP, UDP, Git**'
 
     education:
@@ -138,6 +121,11 @@ cv:
         doi: 10.1109/SIU.2010.5651686
         date: 2010-04
         journal: IEEE
+
+    references:
+      - bullet: "**Prof. Dr. Daniel Buschek**, *University of Bayreuth*, [Daniel.Buschek@uni-bayreuth.de](mailto:Daniel.Buschek@uni-bayreuth.de)"
+      - bullet: "**Dr. Christina Schneegass**, *Delft University of Technology*, [C.Schneegass@tudelft.nl](mailto:C.Schneegass@tudelft.nl)"
+      - bullet: "**Dr. Simon Pirkelmann**, *Fraunhofer ISC, HTL*, [simon.pirkelmann@isc.fraunhofer.de](mailto:simon.pirkelmann@isc.fraunhofer.de)"
 
     additional_experience_and_awards:
       - label: RoboCup 2012 Mexico
