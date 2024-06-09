@@ -1,20 +1,20 @@
 cv:
   name: Feruz Davletov
   location: Bayreuth, Germany
-  email: resume@fer.mozmail.com
+  email: jobs@fer.mozmail.com
   # phone: tel:+90-541-999-99-99
   website: https://feruz.dev
   social_networks:
     - network: LinkedIn
       username: feruz-davletov
-    # - network: GitHub
-      # username: ferdavs
+    - network: GitHub
+      username: ferdavs
   sections:
-    summary:
-      - "I am a **skilled software engineer** with a solid knowledge of OOP with Java and Python. I have finished a **Master's degree** in Computer  Science at Bayreuth University, with a research focus on chatbots to enhance language learning in groups. My **professional goal** is to reach a **Software Architect** position in the **next five years**. I am **passionate about learning new technologies and languages**."
+    profile:
+      - "I am a **skilled software engineer** with a solid knowledge of OOP with Java and Python. I have finished a **Master's degree** in Computer  Science at Bayreuth University, with a research focus on chatbots to enhance language learning in groups. I am **passionate about learning new technologies and languages**."
     
     languages:
-      - "Uzbek(native), Turkmen(native), Turkish(C2), Russian(B1), **English(C1), and German(A2 and learning)**."
+      - "**English(C1), and German(B1 and learning)**, Uzbek(native), Turkmen(native), Turkish(C2), Russian(B1)"
 
     technologies:
       - label: Programming Languages
@@ -24,7 +24,7 @@ cv:
       - label: Databases
         details: PostgreSQL, InfluxDB, Redis
       - label: Other
-        details: Git, Docker, GitLab CI/CD, Jira, Test-Driven Development, Object-Oriented Programming, RESTful API, ETL, Microservices, JUnit, Mockito, Pytest
+        details: Test-Driven Development, Object-Oriented Programming, ETL, Microservices, Git, Docker, GitLab CI/CD, Jira, RESTful API, JUnit, Mockito, Pytest
 
     experience:
       - company: 'Fraunhofer ISC-HTL'
@@ -47,7 +47,7 @@ cv:
         highlights:
           - As a member of maintenance team of **Jive software**, contributed to the platform's reliability by fixing critical issues.
           - Fixed issues related to integration with Microsoft O365, SharePoint, Google Drive, and Box. 
-          - 'Technologies: **Java, Spring, Microservices, RestApi, Microsoft O365, SharePoint, Google Drive, Box, Docker, Jira**'
+          - 'Technologies: **Java, Spring, Maven, Microservices, RestApi, Microsoft O365, SharePoint, Google Drive, Box, Docker, Jira**'
 
       - company: 'Kollektif House'
         position: 'Java Backend and Android Engineer'
@@ -122,24 +122,31 @@ cv:
         date: 2010-04
         journal: IEEE
 
-    references:
-      - bullet: "**Prof. Dr. Daniel Buschek**, *University of Bayreuth*, [Daniel.Buschek@uni-bayreuth.de](mailto:Daniel.Buschek@uni-bayreuth.de)"
-      - bullet: "**Dr. Christina Schneegass**, *Delft University of Technology*, [C.Schneegass@tudelft.nl](mailto:C.Schneegass@tudelft.nl)"
-      - bullet: "**Dr. Simon Pirkelmann**, *Fraunhofer ISC, HTL*, [simon.pirkelmann@isc.fraunhofer.de](mailto:simon.pirkelmann@isc.fraunhofer.de)"
+    # references:
+    #   - bullet: "**Prof. Dr. Daniel Buschek**, *University of Bayreuth*, [Daniel.Buschek@uni-bayreuth.de](mailto:Daniel.Buschek@uni-bayreuth.de)"
+    #   - bullet: "**Dr. Christina Schneegass**, *Delft University of Technology*, [C.Schneegass@tudelft.nl](mailto:C.Schneegass@tudelft.nl)"
+    #   - bullet: "**Dr. Simon Pirkelmann**, *Fraunhofer ISC, HTL*, [simon.pirkelmann@isc.fraunhofer.de](mailto:simon.pirkelmann@isc.fraunhofer.de)"
 
-    additional_experience_and_awards:
-      - label: RoboCup 2012 Mexico
-        details: 2. Place in RoboCup 2012 Rescue Simulation League 
+    # additional_experience_and_awards:
+    #   - label: RoboCup 2012 Mexico
+    #     details: 2. Place in RoboCup 2012 Rescue Simulation League 
       # - label: RoboCup 2012 Iran Open
         # details: 2. Place in RoboCup 2012 Rescue Simulation League
 design:
   font_size: 10pt
   page_size: a4paper
+  disable_external_link_icons: false
   disable_page_numbering: false
-  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  show_last_updated_date: false
+  page_numbering_style: NAME - PAGE_NUMBER / TOTAL_PAGES
+  # show_last_updated_date: false
   header_font_size: 26 pt
   text_alignment: justified
-  theme: classic
+  theme: engineeringresumes
+  margins:
+    page:
+      top: 1.5 cm
+      bottom: 2 cm
+      left: 1.75 cm
+      right: 1 cm
   # show_timespan_in:
   #   - Experience
