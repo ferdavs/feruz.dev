@@ -15,8 +15,7 @@ cv:
     # profile:
     #   - "I am a **experienced software engineer** with a solid knowledge of OOP with Java and Python. I have finished a **Master's degree** in Computer  Science at Bayreuth University, with a research focus on chatbots to enhance language learning in groups. I am **passionate about learning new technologies and languages**."
     
-
-    experience:
+    "\\faBriefcase\\enspace  experience":
       - company: 'Fraunhofer HTL'
         position: 'Software Engineer - Hiwi'
         start_date: 2021-12
@@ -59,10 +58,10 @@ cv:
           - Implemented asynchronous sensor-UI communication, increasing connected sensors from 200 to 1000.
           - '**C#.NET|MS SQLServer|Serial|GPRS|TCP|UDP|Git|OOP**'
     
-    languages:
+    "\\faLanguage\\enspace languages":
       - "English(C1), **German(B1 and learning)**, Turkish(C2), Uzbek(native), Turkmen(native),"
 
-    education:
+    "\\faGraduationCap\\enspace  education":
       - institution: University of Bayreuth  
         start_date: 2020-10
         end_date: 2024-03
@@ -83,7 +82,7 @@ cv:
         highlights:
           - '**Thesis Project:** Controlling multiple robots in virtual disaster environments.'
         
-    projects:
+    "\\faTasks\\enspace  projects":
       - name: 'Energy Usage Prediction of Household Devices with Energy Meters'
         # location: Bayreuth University
         date: 2023-09
