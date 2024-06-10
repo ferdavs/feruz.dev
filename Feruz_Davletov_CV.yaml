@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=https://github.com/sinaatalay/rendercv/blob/main/schema.json?raw=true
+
 cv:
   name: Feruz Davletov
   location: Bayreuth, Germany
@@ -13,6 +15,9 @@ cv:
     profile:
       - "I am a **experienced software engineer** with a solid knowledge of OOP with Java and Python. I have finished a **Master's degree** in Computer  Science at Bayreuth University, with a research focus on chatbots to enhance language learning in groups. I am **passionate about learning new technologies and languages**."
     
+    languages:
+      - "English(C1), **German(B1 and learning)**, Uzbek(native), Turkmen(native), Turkish(C2), Russian(B1)"
+
     experience:
       - company: 'Fraunhofer ISC-HTL'
         position: 'Software Engineer - Student Assistant'
@@ -20,11 +25,11 @@ cv:
         end_date: 2024-04
         location: Bayreuth, Germany
         highlights:
-          - Developed a Python library to fetch and format sensor data, improving usability.
-          - Developed a Python library to parse and reformat historical sensor data using pandas.
-          - Developed visualization tool using PyQt and PyQTGraph.
-          - Assisted in configuring GitLab CICD for Linux and Windows deployments, and implemented automated deployment processes for both environments.
-          - 'Technologies: **Python, InfluxDB, ETL, PyQt5, PyQTGraph, GitLab CI/CD, Pandas, Git, Docker, numpy**'
+          - Developed a Python library to parse historical sensor data and convert to standard format described by other teams.
+          - Developed visualization tool using PyQt and PyQTGraph that uses above parser library.
+          - Developed ETL processes to extract data from InfluxDB and transform it to be used in simulation and modeling projects.
+          - Configured GitLab CI/CD for Linux and Windows automated tests, deployments such as building executable and documentation files.
+          - 'Technologies: **Python, InfluxDB, ETL, PyQt5, PyQTGraph, GitLab CI/CD, Pandas, Git, Docker, numpy, OOP, TDD**'
 
       - company: Crossover
         position: 'Java Software Engineer'
@@ -34,7 +39,7 @@ cv:
         highlights:
           - As a member of maintenance team of **Jive software**, contributed to the platform's reliability by fixing critical issues.
           - Fixed issues related to integration with Microsoft O365, SharePoint, Google Drive, and Box. 
-          - 'Technologies: **Java, Spring, Maven, Microservices, RestApi, Microsoft O365, SharePoint, Box, Docker, Jira**'
+          - 'Technologies: **Java, Spring, Maven, Microservices, RestApi, Microsoft O365, SharePoint, Box, Docker, Jira, OOP, TDD**'
 
       - company: 'Kollektif House'
         position: 'Java Backend and Android Engineer'
@@ -44,7 +49,7 @@ cv:
         highlights:
           - Added needed financial portfolio analysis and metrics like beta, Sharpe ratio, etc. 
           - Contributed to developing the Java backend and Android app, improving fan engagement and digital experience.
-          - 'Technologies: **Java, Android, Play Framework,Django,Javascript,RestApi, PostgreSQL, Docker, Asana, Git**'
+          - 'Technologies: **Java, Android, Play Framework,Django,Javascript,RestApi, PostgreSQL, Docker, Asana, Git, OOP**'
 
       - company: 'Mavili Elektronik'
         position: 'Software Engineer'
@@ -54,20 +59,7 @@ cv:
         highlights:
           - Developed software from scratch for Serial, GPRS, and TCP communication.
           - Implemented asynchronous sensor-server communication, which increased number of connected sensors from 200 to 1000.
-          - 'Technologies: **C#.NET,MS SQL Server, RS232, GPRS, TCP, UDP, Git**'
-
-    languages:
-      - "**English(C1), and German(B1 and learning)**, Uzbek(native), Turkmen(native), Turkish(C2), Russian(B1)"
-
-    technologies:
-      - label: Programming Languages
-        details: Java, Python 3+, C#.NET
-      - label: Frameworks
-        details: FastAPI, Django, Flask, Spring, Play Framework, PyQT5, NumPy, pandas, sci-kit-learn, PyTorch, TensorFlow(Keras)
-      - label: Databases
-        details: PostgreSQL, InfluxDB, Redis
-      - label: Other
-        details: Object-Oriented Programming, Test-Driven Development, ETL, Microservices, Git, Docker, GitLab CI/CD, Jira, RESTful API, JUnit, Mockito, Pytest
+          - 'Technologies: **C#.NET, MS SQL Server, RS232, GPRS, TCP, UDP, Git, OOP**'
 
     education:
       - start_date: 2020-10
@@ -90,7 +82,7 @@ cv:
           - '**Thesis Project:** Controlling multiple robots in virtual disaster environments.'
         
     projects:
-      - name: 'Domovyk: Prediction of Energy Usage of Household Devices with Hardware Energy Meters'
+      - name: 'Prediction of Energy Usage of Household Devices with Hardware Energy Meters'
         location: Bayreuth University, Germany
         date: 2023-09
         highlights: 
@@ -145,16 +137,6 @@ cv:
         date: 2010-04
         journal: IEEE
 
-    # references:
-    #   - bullet: "**Prof. Dr. Daniel Buschek**, *University of Bayreuth*, [Daniel.Buschek@uni-bayreuth.de](mailto:Daniel.Buschek@uni-bayreuth.de)"
-    #   - bullet: "**Dr. Christina Schneegass**, *Delft University of Technology*, [C.Schneegass@tudelft.nl](mailto:C.Schneegass@tudelft.nl)"
-    #   - bullet: "**Dr. Simon Pirkelmann**, *Fraunhofer ISC, HTL*, [simon.pirkelmann@isc.fraunhofer.de](mailto:simon.pirkelmann@isc.fraunhofer.de)"
-
-    # additional_experience_and_awards:
-    #   - label: RoboCup 2012 Mexico
-    #     details: 2. Place in RoboCup 2012 Rescue Simulation League 
-      # - label: RoboCup 2012 Iran Open
-        # details: 2. Place in RoboCup 2012 Rescue Simulation League
 design:
   theme: engineeringresumes
   font: "Source Sans 3"
@@ -166,6 +148,7 @@ design:
   # show_last_updated_date: false
   header_font_size: 26 pt
   text_alignment: justified
+  # use_icons_for_connections: true
   margins:
     page:
       top: 1.5 cm
@@ -174,7 +157,10 @@ design:
       right: 1 cm
     header:
       bottom: 10 pt
-      # vertical_between_name_and_connections: 5 pt
-      # horizontal_between_connections: 10 pt
+    entry_area:
+      left_and_right: 0 cm
+      vertical_between: 0.5 cm
+      date_and_location_width: 4.5 cm
+
   # show_timespan_in:
   #   - Experience
