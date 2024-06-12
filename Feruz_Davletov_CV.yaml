@@ -41,7 +41,7 @@ cv:
         end_date: 2024-04
         location: Bayreuth, Germany
         highlights:
-          - Developed a Python library to parse historical sensor data and store.
+          - Developed a Python library to parse historical sensor data.
           - Created a visualization tool using PyQt and PyQTGraph.
           - Developed an ETL library to extract data from InfluxDB.
           - Configured CI/CD for automated tests, deployments, and documentation.
