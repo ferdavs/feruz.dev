@@ -8,6 +8,10 @@
 - GitHub: [ferdavs](https://github.com/ferdavs)
 
 
+# \faUser\enspace  Profile
+
+I am an experienced **software engineer** with expertise in **Python and Java**. My strengths include developing **scalable solutions** and **automating processes**. My key skills: **Software Engineering, Extract Transform Load, and CI/CD**. I am passionate about learning new technologies.
+
 # \faUserGraduate\enspace  Education
 
 ## University of Bayreuth, MS in Computer Science
@@ -67,7 +71,7 @@
 
 **Others**: OOP(expert) | TDD(good) | ETL(good) | REST-API(good) | Microservices(good) | Machine Learning(good) | Deep Learning(basic) | Reinforcement Learning(basic)
 
-# \faServer\enspace  Projects
+# \faUserCog\enspace  Projects
 
 ## Energy Usage Prediction of Household Devices with Energy Meters
 

@@ -2,6 +2,7 @@
 
 cv:
   name: Feruz Davletov
+
   location: Bismarckstr 25, 95444 Bayreuth
   email: jobs@fer.mozmail.com
   phone: tel:+49-170-670-3555
@@ -12,8 +13,9 @@ cv:
     - network: GitHub
       username: ferdavs
   sections:
-    # profile:
-    #   - "I am a **experienced software engineer** with a solid knowledge of OOP with Java and Python. I have finished a **Master's degree** in Computer  Science at Bayreuth University, with a research focus on chatbots to enhance language learning in groups. I am **passionate about learning new technologies and languages**."
+    "\\faUser\\enspace  profile":
+      - "I am an experienced **software engineer** with expertise in **Python and Java**. My strengths include developing **scalable solutions** and **automating processes**. My key skills: **Software Engineering, Extract Transform Load, and CI/CD**. I am passionate about learning new technologies."
+      
     "\\faUserGraduate\\enspace  education":
       - institution: University of Bayreuth  
         start_date: 2020-10
@@ -88,7 +90,7 @@ cv:
         - '**Databases**: PostgreSQL(basic) | InfluxDB(basic) | Redis(basic)'
         - '**Others**: OOP(expert) | TDD(good) | ETL(good) | REST-API(good) | Microservices(good) | Machine Learning(good) | Deep Learning(basic) | Reinforcement Learning(basic)'
 
-    "\\faServer\\enspace  projects":
+    "\\faUserCog\\enspace  projects":
       - name: 'Energy Usage Prediction of Household Devices with Energy Meters'
         # location: Bayreuth University
         date: 2023-09
@@ -155,7 +157,7 @@ design:
   page_numbering_style: NAME - PAGE_NUMBER / TOTAL_PAGES
   # show_last_updated_date: false
   header_font_size: 26 pt
-  text_alignment: justified
+  text_alignment: justified-with-no-hyphenation
   
   # use_icons_for_connections: true
   margins:
