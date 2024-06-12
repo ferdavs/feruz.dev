@@ -2,7 +2,7 @@
 
 cv:
   name: Feruz Davletov
-  location: Bayreuth, Germany
+  location: Bismarckstr 25, 95444 Bayreuth
   email: jobs@fer.mozmail.com
   phone: tel:+49-170-670-3555
   website: https://feruz.dev
@@ -14,54 +14,7 @@ cv:
   sections:
     # profile:
     #   - "I am a **experienced software engineer** with a solid knowledge of OOP with Java and Python. I have finished a **Master's degree** in Computer  Science at Bayreuth University, with a research focus on chatbots to enhance language learning in groups. I am **passionate about learning new technologies and languages**."
-    
-    "\\faBriefcase\\enspace  experience":
-      - company: 'Fraunhofer HTL'
-        position: 'Software Engineer - Hiwi'
-        start_date: 2021-12
-        end_date: 2024-04
-        location: Bayreuth, Germany
-        highlights:
-          - Developed a Python library to parse historical sensor data and store in specified format.
-          - Developed visualization tool using PyQt and PyQTGraph that uses above parser library.
-          - Developed ETL library to extract data from InfluxDB and transform it to be used in  modeling projects.
-          - Configured CI/CD for automated tests, deployments and documentation files.
-          - '**Python|InfluxDB|PyQt5|GitLab CI/CD|Pandas|Git|Docker|NumPy|OOP|TDD|ETL**'
-
-      - company: Crossover
-        position: 'Software Engineer'
-        start_date: 2018-07
-        end_date: 2020-08
-        # location: Remote
-        highlights:
-          - Maintained, Jive, document management software by adding unit tests and updating old libraries.
-          - Fixed issues related to integration with Microsoft O365, SharePoint, Google Drive, and Box. 
-          - '**Java|Spring|Maven|Microservices|RestApi|MS-O365|Box|Docker|Jira|OOP|TDD**'
-
-      - company: 'Kollektif House'
-        position: 'Software Engineer'
-        start_date: 2017-05
-        end_date: 2018-07
-        # location: Istanbul, Turkey
-        highlights:
-          - Added financial portfolio analysis and metrics like beta, Sharpe ratio, etc. 
-          - Maintained the Java backend and Android app for national football team.
-          - '**Android(Java)|Play Framework|Django|RestApi|PostgreSQL|Docker|Asana|Git|OOP**'
-
-      - company: 'Mavili Elektronik'
-        position: 'Software Engineer - Part-time'
-        start_date: 2013-07
-        end_date: 2015-08
-        # location: Istanbul, Turkey
-        highlights:
-          - Redeveloped communication software between sensors and UI using Serial, GPRS, and TCP protocols.
-          - Implemented asynchronous sensor-UI communication, increasing connected sensors from 200 to 1000.
-          - '**C#.NET|MS SQLServer|Serial|GPRS|TCP|UDP|Git|OOP**'
-    
-    "\\faLanguage\\enspace languages":
-      - "English(C1), **German(B1 and learning)**, Turkish(C2), Uzbek(native), Turkmen(native),"
-
-    "\\faGraduationCap\\enspace  education":
+    "\\faUserGraduate\\enspace  education":
       - institution: University of Bayreuth  
         start_date: 2020-10
         end_date: 2024-03
@@ -73,15 +26,69 @@ cv:
           - '**Courses:** Data Analysis and Deep Learning with Python | Reinforcement Learning | Intelligent UIs'
 
       - institution: Yildiz Technical University 
-        # start_date: 2007-09
-        # end_date: 2013-08
+        start_date: 2008-09
+        end_date: 2013-08
         # location: Istanbul, Turkey
         area: Computer Engineering
         degree: BS
         highlights:
           - '**Thesis Project:** Controlling multiple robots in virtual disaster environments.'
         
-    "\\faTasks\\enspace  projects":
+    "\\faUsersCog\\enspace  experience":
+      - company: 'Fraunhofer HTL'
+        position: 'Software Engineer - Hiwi'
+        start_date: 2021-12
+        end_date: 2024-04
+        location: Bayreuth, Germany
+        highlights:
+          - Developed a Python library to parse historical sensor data and store.
+          - Created a visualization tool using PyQt and PyQTGraph.
+          - Developed an ETL library to extract data from InfluxDB.
+          - Configured CI/CD for automated tests, deployments, and documentation.
+          - '**Tech Stack:** Python|InfluxDB|PyQt5|GitLab CI/CD|Pandas|Git|Docker|NumPy.'
+
+      - company: Crossover
+        position: 'Software Engineer'
+        start_date: 2018-07
+        end_date: 2020-08
+        # location: Remote
+        highlights:
+          - Maintained Jive document management software.
+          - Fixed integration issues with Microsoft O365, SharePoint, Box etc.
+          - '**Tech Stack:** Java|Spring|Maven|Microservices|RestApi|MS-O365|Box|Docker|Jira'
+
+      - company: 'Kollektif House'
+        position: 'Software Engineer'
+        start_date: 2017-05
+        end_date: 2018-07
+        # location: Istanbul, Turkey
+        highlights:
+          - Added financial portfolio analysis and metrics like sharpe ratio, etc. 
+          - Maintained the Java backend and Android app for football team.
+          - '**Tech Stack:** Android(Java)|Play Framework|Django|RestApi|PostgreSQL|Docker|Asana|Git'
+
+      - company: 'Mavili Elektronik'
+        position: 'Software Engineer - Part-time'
+        start_date: 2013-07
+        end_date: 2015-08
+        # location: Istanbul, Turkey
+        highlights:
+          # - Developed communication software between sensors and UI using Serial and TCP protocols.
+          - Developed asynchronous sensor-UI communication, increasing connected sensors by 400%.
+          - '**Tech Stack:** C#.NET|MS SQLServer|Serial|GPRS|TCP|UDP|Git'
+    
+    # "\\faLanguage\\enspace languages":
+    #   - "English(C1), **German(B1 and learning)**, Turkish(C2), Uzbek(native), Turkmen(native),"
+
+    "\\faUserNinja\\enspace skills": 
+        - '**Languages**: English(C1) | \textbf{German(B1 and learning)} | Turkish(C2) | Uzbek(native) | Turkmen(native)'
+        - '**Programming**: Python(expert) | Java(expert) | C#(basic) | SQL(basic) | C(basic)'
+        - '**Tools**: Git(good) | Docker(good) | Linux(good) | GitLab CI/CD(good)'
+        - '**Frameworks**: Pandas(good) | Flask(good) | PyQt5(basic) | scikit-learn(basic) | Keras(basic)'
+        - '**Databases**: PostgreSQL(basic) | InfluxDB(basic) | Redis(basic)'
+        - '**Others**: OOP(expert) | TDD(good) | ETL(good) | REST-API(good) | Microservices(good) | Machine Learning(good) | Deep Learning(basic) | Reinforcement Learning(basic)'
+
+    "\\faServer\\enspace  projects":
       - name: 'Energy Usage Prediction of Household Devices with Energy Meters'
         # location: Bayreuth University
         date: 2023-09
@@ -89,19 +96,21 @@ cv:
           - Created system and software architecture for the project.
           - Developed a backend service to collect energy usage data from energy meters.
           - Developed an android app and a predictive model to visualize energy usage and predictions.
-          - '**Android(Java)|Python|PostgreSQL|NumPy|Pandas|Tuya energy meters**'
+          - '**Tech Stack:** Android(Java)|Python|PostgreSQL|NumPy|Pandas|Tuya energy meters'
       - name: 'Walking and Running route suggestion app based on user preferences'
         # location: Bayreuth University
         date: 2023-03
         highlights: 
-          - Implemented google-maps like navigation with voice, based on OpenStreetMap for suggested routes.
-          - '**Android(Java), OSRM, Azure Neural TTS**'
+            - Implemented google-maps like navigation with voice using OpenStreetMap for the routes.
+            - '**Tech Stack:** Android(Java), OSRM, Azure Neural TTS'
+
       - name: 'Matrix Multiplication Energy Consumption on Intel and AMD CPUs'
         # location: Bayreuth University
         date: 2022-06
         highlights: 
-          - Investigated the energy consumption of various matrix multiplication algorithms in x86 architectures.
-          - '**C|Python|NumPy|Pandas|Linux|likwid library**'
+            - Investigated energy consumption of matrix multiplication algorithms in x86 architectures.
+            - '**Tech Stack:** C|Python|NumPy|Pandas|Linux|likwid library'
+      
       # - name: 'Exploring Metabolic Networks and Gene Regulation Networks'
       #   # location: Istanbul Sehir University
       #   date: 2016-06
@@ -109,15 +118,15 @@ cv:
       #     - Implemented Flux Balance Analysis algorithms for exploring Metabolic Networks and integrating Gene Regulation Networks as part of the Bioinformatics Lab.
       #     - Developed time series prediction model and ETL processes for academic citation count project.
       #     - 'Technologies: **Matlab, C#, SQL, Recon 2.1 Dataset for human metabolic networks**'
-      # - name: 'Text2arff: Automatic feature extraction software for Turkish texts'
-      #   # location: Yildiz Technical University
-      #   date: 2010-04
-      #   highlights: 
-      #     - Developed a UI for software that extracts features from Turkish texts and convert them to arff format.
-      #     - Focused on extracting features like word count, sentence count, word frequency, N-grams etc.
-      #     - 'Technologies: **Java, Weka, Turkish NLP**'
+      - name: 'Text2arff: Automatic feature extraction software for Turkish texts'
+        # location: Yildiz Technical University
+        date: 2010-04
+        highlights: 
+          - Developed a UI for extracting features from Turkish texts and converting them to arff format.
+          - Focused on features like word count, sentence count, word frequency, N-grams, etc.
+          - '**Tech Stack:** Java, Weka, NLP.'
 
-    "\\faFile\\enspace publications":
+    "\\faUserEdit\\enspace publications":
       - title: 'High Impact Academic Paper Prediction Using Temporal and Topological Features'
         authors:
           - Feruz Davletov
@@ -154,12 +163,10 @@ design:
       top: 1.5 cm
       bottom: 2 cm
       left: 1.75 cm
-      right: 1 cm
+      right: 2 cm
     header:
       bottom: 10 pt
     entry_area:
       left_and_right: 0 cm
-      vertical_between: 0.5 cm
+      vertical_between: 0.4 cm
       date_and_location_width: 4.5 cm
-  # show_timespan_in:
-  #   - Experience
