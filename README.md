@@ -27,7 +27,7 @@
 
 - Dec 2021 -- Apr 2024
 - Bayreuth, Germany
-- Developed a Python library to parse historical sensor data and store.
+- Developed a Python library to parse historical sensor data.
 - Created a visualization tool using PyQt and PyQTGraph.
 - Developed an ETL library to extract data from InfluxDB.
 - Configured CI/CD for automated tests, deployments, and documentation.
