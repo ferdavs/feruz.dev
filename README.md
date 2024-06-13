@@ -10,7 +10,7 @@
 
 # \faUser\enspace  Profile
 
-I am an experienced **software engineer** with expertise in **Python and Java**. My strengths include developing **scalable solutions** and **automating processes**. My key skills: **Software Engineering, Extract Transform Load, and CI/CD**. I am passionate about learning new technologies.
+Experienced software engineer with expertise in **Python and Java**. My strengths include developing **scalable solutions** and **automating processes**. Key skills: **Software Engineering, Extract Transform Load, and CI/CD**. I am passionate about learning new technologies.
 
 # \faUserGraduate\enspace  Education
 
@@ -22,7 +22,7 @@ I am an experienced **software engineer** with expertise in **Python and Java**.
 
 ## Yildiz Technical University, BS in Computer Engineering
 
-- Sept 2008 -- Aug 2013
+- Sep 2008 -- Aug 2013
 - **Thesis Project:** Controlling multiple robots in virtual disaster environments.
 
 # \faUsersCog\enspace  Experience
@@ -39,22 +39,22 @@ I am an experienced **software engineer** with expertise in **Python and Java**.
 
 ## Crossover, Software Engineer
 
-- July 2018 -- Aug 2020
+- Jul 2018 -- Aug 2020
 - Maintained Jive document management software.
 - Fixed integration issues with Microsoft O365, SharePoint, Box etc.
 - **Tech Stack:** Java|Spring|Maven|Microservices|RestApi|MS-O365|Box|Docker|Jira
 
 ## Kollektif Labs, Software Engineer
 
-- May 2017 -- July 2018
+- May 2017 -- Jul 2018
 - Added financial portfolio analysis and metrics like sharpe ratio, etc.
 - Maintained the Java backend and Android app for football team.
 - **Tech Stack:** Android(Java)|Play Framework|Django|RestApi|PostgreSQL|Docker|Asana|Git
 
 ## Mavili Elektronik, Software Engineer - Part-time
 
-- July 2013 -- Aug 2015
-- Developed asynchronous sensor-UI communication, increasing connected sensors by 400%.
+- Jul 2013 -- Aug 2015
+- Developed communication software between sensors and UI using Serial and TCP protocols.
 - **Tech Stack:** C#.NET|MS SQLServer|Serial|GPRS|TCP|UDP|Git
 
 # \faUserNinja\enspace Skills
@@ -75,7 +75,7 @@ I am an experienced **software engineer** with expertise in **Python and Java**.
 
 ## Energy Usage Prediction of Household Devices with Energy Meters
 
-- Sept 2023
+- Sep 2023
 - Created system and software architecture for the project.
 - Developed a backend service to collect energy usage data from energy meters.
 - Developed an android app and a predictive model to visualize energy usage and predictions.
@@ -89,16 +89,9 @@ I am an experienced **software engineer** with expertise in **Python and Java**.
 
 ## Matrix Multiplication Energy Consumption on Intel and AMD CPUs
 
-- June 2022
+- Jun 2022
 - Investigated energy consumption of matrix multiplication algorithms in x86 architectures.
 - **Tech Stack:** C|Python|NumPy|Pandas|Linux|likwid library
-
-## Text2arff: Automatic feature extraction software for Turkish texts
-
-- Apr 2010
-- Developed a UI for extracting features from Turkish texts and converting them to arff format.
-- Focused on features like word count, sentence count, word frequency, N-grams, etc.
-- **Tech Stack:** Java, Weka, NLP.
 
 # \faUserEdit\enspace Publications
 
