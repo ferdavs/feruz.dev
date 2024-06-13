@@ -14,7 +14,7 @@ cv:
       username: ferdavs
   sections:
     "\\faUser\\enspace  profile":
-      - "I am an experienced **software engineer** with expertise in **Python and Java**. My strengths include developing **scalable solutions** and **automating processes**. My key skills: **Software Engineering, Extract Transform Load, and CI/CD**. I am passionate about learning new technologies."
+      - "I am an experienced software engineer with expertise in **Python and Java**. My strengths include developing **scalable solutions** and **automating processes**. My key skills: **Software Engineering, Extract Transform Load, and CI/CD**. I am passionate about learning new technologies."
       
     "\\faUserGraduate\\enspace  education":
       - institution: University of Bayreuth  
@@ -75,8 +75,8 @@ cv:
         end_date: 2015-08
         # location: Istanbul, Turkey
         highlights:
-          # - Developed communication software between sensors and UI using Serial and TCP protocols.
-          - Developed asynchronous sensor-UI communication, increasing connected sensors by 400%.
+          - Developed communication software between sensors and UI using Serial and TCP protocols.
+          # - Increased connected sensors by 400% with above software.
           - '**Tech Stack:** C#.NET|MS SQLServer|Serial|GPRS|TCP|UDP|Git'
     
     # "\\faLanguage\\enspace languages":
