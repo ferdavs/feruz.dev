@@ -14,7 +14,7 @@ cv:
       username: ferdavs
   sections:
     "\\faUser\\enspace  profile":
-      - "I am an experienced software engineer with expertise in **Python and Java**. My strengths include developing **scalable solutions** and **automating processes**. My key skills: **Software Engineering, Extract Transform Load, and CI/CD**. I am passionate about learning new technologies."
+      - "Experienced software engineer with expertise in **Python and Java**. My strengths include developing **scalable solutions** and **automating processes**. Key skills: **Software Engineering, Extract Transform Load, and CI/CD**. I am passionate about learning new technologies."
       
     "\\faUserGraduate\\enspace  education":
       - institution: University of Bayreuth  
@@ -120,13 +120,13 @@ cv:
       #     - Implemented Flux Balance Analysis algorithms for exploring Metabolic Networks and integrating Gene Regulation Networks as part of the Bioinformatics Lab.
       #     - Developed time series prediction model and ETL processes for academic citation count project.
       #     - 'Technologies: **Matlab, C#, SQL, Recon 2.1 Dataset for human metabolic networks**'
-      - name: 'Text2arff: Automatic feature extraction software for Turkish texts'
-        # location: Yildiz Technical University
-        date: 2010-04
-        highlights: 
-          - Developed a UI for extracting features from Turkish texts and converting them to arff format.
-          - Focused on features like word count, sentence count, word frequency, N-grams, etc.
-          - '**Tech Stack:** Java, Weka, NLP.'
+      # - name: 'Text2arff: Automatic feature extraction software for Turkish texts'
+      #   # location: Yildiz Technical University
+      #   date: 2010-04
+      #   highlights: 
+      #     - Developed a UI for extracting features from Turkish texts and converting them to arff format.
+      #     - Focused on features like word count, sentence count, word frequency, N-grams, etc.
+      #     - '**Tech Stack:** Java, Weka, NLP.'
 
     "\\faUserEdit\\enspace publications":
       - title: 'High Impact Academic Paper Prediction Using Temporal and Topological Features'
