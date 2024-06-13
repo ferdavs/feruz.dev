@@ -65,7 +65,7 @@ I am an experienced **software engineer** with expertise in **Python and Java**.
 
 **Tools**: Git(good) | Docker(good) | Linux(good) | GitLab CI/CD(good)
 
-**Frameworks**: Pandas(good) | Flask(good) | PyQt5(basic) | scikit-learn(basic) | Keras(basic)
+**Frameworks**: Android(good) | Pandas(good) | Flask(good) | PyQt5(basic) | scikit-learn(basic) | Keras(basic)
 
 **Databases**: PostgreSQL(basic) | InfluxDB(basic) | Redis(basic)
 
