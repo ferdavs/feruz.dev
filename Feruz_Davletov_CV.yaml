@@ -157,7 +157,7 @@ design:
   page_numbering_style: NAME - PAGE_NUMBER / TOTAL_PAGES
   # show_last_updated_date: false
   header_font_size: 26 pt
-  text_alignment: justified-with-no-hyphenation
+  text_alignment: left-aligned
   
   # use_icons_for_connections: true
   margins:
