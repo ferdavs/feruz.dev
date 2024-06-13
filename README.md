@@ -44,7 +44,7 @@ I am an experienced **software engineer** with expertise in **Python and Java**.
 - Fixed integration issues with Microsoft O365, SharePoint, Box etc.
 - **Tech Stack:** Java|Spring|Maven|Microservices|RestApi|MS-O365|Box|Docker|Jira
 
-## Kollektif House, Software Engineer
+## Kollektif Labs, Software Engineer
 
 - May 2017 -- July 2018
 - Added financial portfolio analysis and metrics like sharpe ratio, etc.

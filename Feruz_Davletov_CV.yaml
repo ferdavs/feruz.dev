@@ -59,7 +59,7 @@ cv:
           - Fixed integration issues with Microsoft O365, SharePoint, Box etc.
           - '**Tech Stack:** Java|Spring|Maven|Microservices|RestApi|MS-O365|Box|Docker|Jira'
 
-      - company: 'Kollektif House'
+      - company: 'Kollektif Labs'
         position: 'Software Engineer'
         start_date: 2017-05
         end_date: 2018-07
