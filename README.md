@@ -8,12 +8,6 @@
 - GitHub: [ferdavs](https://github.com/ferdavs)
 
 
-# \faUser\enspace  Profile
-
-Experienced software engineer with expertise in **Python and Java**.
-
-Key skills: **Software Engineering**, **Extract Transform Load**, and **automating processes with CI/CD**. I am passionate about learning new technologies.
-
 # \faUserGraduate\enspace  Education
 
 ## University of Bayreuth, MS in Computer Science
@@ -33,9 +27,8 @@ Key skills: **Software Engineering**, **Extract Transform Load**, and **automati
 
 - Dec 2021 -- Apr 2024
 - Bayreuth, Germany
-- Developed a Python library to parse historical sensor data.
+- Developed a ETL library to extract sensor data from InfluxDB .
 - Created a visualization tool using PyQt and PyQTGraph.
-- Developed an ETL library to extract data from InfluxDB.
 - Configured CI/CD for automated tests, deployments, and documentation.
 - **Tech Stack:** Python|InfluxDB|PyQt5|GitLab CI/CD|Pandas|Git|Docker|NumPy.
 
@@ -62,8 +55,6 @@ Key skills: **Software Engineering**, **Extract Transform Load**, and **automati
 # $\overset{\text{\faLanguage}}{\text{\raisebox{0.1em}{\faUser}}}$\enspace Languages
 
 English(C1), **German(B1 and learning)**, Turkish(C2), Uzbek(native), Turkmen(native)
-
-
 
 # \faUserNinja\enspace Skills
 

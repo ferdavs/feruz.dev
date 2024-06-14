@@ -13,9 +13,9 @@ cv:
     - network: GitHub
       username: ferdavs
   sections:
-    "\\faUser\\enspace  profile":
-      - "Experienced software engineer with expertise in **Python and Java**."
-      - "Key skills: **Software Engineering**, **Extract Transform Load**, and **automating processes with CI/CD**. I am passionate about learning new technologies."
+    # "\\faUser\\enspace  profile":
+    #   - "Experienced software engineer with expertise in **Python and Java**."
+    #   - "Key skills: **Software Engineering**, **Extract Transform Load**, and **automating processes with CI/CD**. I am passionate about learning new technologies."
       
     "\\faUserGraduate\\enspace  education":
       - institution: University of Bayreuth  
@@ -44,9 +44,8 @@ cv:
         end_date: 2024-04
         location: Bayreuth, Germany
         highlights:
-          - Developed a Python library to parse historical sensor data.
+          - Developed a ETL library to extract sensor data from InfluxDB .
           - Created a visualization tool using PyQt and PyQTGraph.
-          - Developed an ETL library to extract data from InfluxDB.
           - Configured CI/CD for automated tests, deployments, and documentation.
           - '**Tech Stack:** Python|InfluxDB|PyQt5|GitLab CI/CD|Pandas|Git|Docker|NumPy.'
 
@@ -82,7 +81,6 @@ cv:
     
     "$\\overset{\\text{\\faLanguage}}{\\text{\\raisebox{0.1em}{\\faUser}}}$\\enspace languages":
       - "English(C1), **German(B1 and learning)**, Turkish(C2), Uzbek(native), Turkmen(native)"
-      - ""
 
     "\\faUserNinja\\enspace skills": 
         - '**Programming**: Python(expert) | Java(expert) | C#(basic) | SQL(basic) | C(basic)'
@@ -171,5 +169,5 @@ design:
       bottom: 10 pt
     entry_area:
       left_and_right: 0 cm
-      vertical_between: 0.4 cm
+      vertical_between: 0.3 cm
       date_and_location_width: 4.5 cm
