@@ -14,8 +14,8 @@ cv:
       username: ferdavs
   sections:
     "\\faUser\\enspace  profile":
-      - "Experienced software engineer with expertise in **Python and Java**. My strengths include **automating processes**."
-      - "Key skills: **Software Engineering, Extract Transform Load, and CI/CD**. I am passionate about learning new technologies."
+      - "Experienced software engineer with expertise in **Python and Java**."
+      - "Key skills: **Software Engineering**, **Extract Transform Load**, and **automating processes with CI/CD**. I am passionate about learning new technologies."
       
     "\\faUserGraduate\\enspace  education":
       - institution: University of Bayreuth  

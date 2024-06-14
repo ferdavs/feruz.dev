@@ -10,7 +10,9 @@
 
 # \faUser\enspace  Profile
 
-Experienced software engineer with expertise in **Python and Java**. My strengths include developing **scalable solutions** and **automating processes**. Key skills: **Software Engineering, Extract Transform Load, and CI/CD**. I am passionate about learning new technologies.
+Experienced software engineer with expertise in **Python and Java**.
+
+Key skills: **Software Engineering**, **Extract Transform Load**, and **automating processes with CI/CD**. I am passionate about learning new technologies.
 
 # \faUserGraduate\enspace  Education
 
@@ -40,7 +42,7 @@ Experienced software engineer with expertise in **Python and Java**. My strength
 ## Crossover, Software Engineer
 
 - Jul 2018 -- Aug 2020
-- Maintained Jive document management software.
+- Maintained Jive document management and collaboration software.
 - Fixed integration issues with Microsoft O365, SharePoint, Box etc.
 - **Tech Stack:** Java|Spring|Maven|Microservices|RestApi|MS-O365|Box|Docker|Jira
 
@@ -57,9 +59,13 @@ Experienced software engineer with expertise in **Python and Java**. My strength
 - Developed communication software between sensors and UI using Serial and TCP protocols.
 - **Tech Stack:** C#.NET|MS SQLServer|Serial|GPRS|TCP|UDP|Git
 
-# \faUserNinja\enspace Skills
+# \faLanguage\enspace Languages
 
-**Languages**: English(C1) | \textbf{German(B1 and learning)} | Turkish(C2) | Uzbek(native) | Turkmen(native)
+English(C1), **German(B1 and learning)**, Turkish(C2), Uzbek(native), Turkmen(native)
+
+
+
+# \faUserNinja\enspace Skills
 
 **Programming**: Python(expert) | Java(expert) | C#(basic) | SQL(basic) | C(basic)
 
