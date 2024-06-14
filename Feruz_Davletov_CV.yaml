@@ -105,7 +105,7 @@ cv:
         date: 2023-03
         highlights: 
             - Implemented google-maps like navigation with voice using OpenStreetMap for the routes.
-            - '**Tech Stack:** Android(Java), OSRM, Azure Neural TTS'
+            - '**Tech Stack:** Android(Java)|OSRM|Azure Neural TTS'
 
       - name: 'Matrix Multiplication Energy Consumption on Intel and AMD CPUs'
         # location: Bayreuth University

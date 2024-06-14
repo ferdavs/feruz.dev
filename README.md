@@ -91,7 +91,7 @@ English(C1), **German(B1 and learning)**, Turkish(C2), Uzbek(native), Turkmen(na
 
 - Mar 2023
 - Implemented google-maps like navigation with voice using OpenStreetMap for the routes.
-- **Tech Stack:** Android(Java), OSRM, Azure Neural TTS
+- **Tech Stack:** Android(Java)|OSRM|Azure Neural TTS
 
 ## Matrix Multiplication Energy Consumption on Intel and AMD CPUs
 
