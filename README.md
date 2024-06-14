@@ -59,7 +59,7 @@ Key skills: **Software Engineering**, **Extract Transform Load**, and **automati
 - Developed communication software between sensors and UI using Serial and TCP protocols.
 - **Tech Stack:** C#.NET|MS SQLServer|Serial|GPRS|TCP|UDP|Git
 
-# \faLanguage\enspace Languages
+# $\overset{\text{\faLanguage}}{\text{\raisebox{0.1em}{\faUser}}}$\enspace Languages
 
 English(C1), **German(B1 and learning)**, Turkish(C2), Uzbek(native), Turkmen(native)
 
