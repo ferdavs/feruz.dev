@@ -14,7 +14,8 @@ cv:
       username: ferdavs
   sections:
     "\\faUser\\enspace  profile":
-      - "Experienced software engineer with expertise in **Python and Java**. My strengths include developing **scalable solutions** and **automating processes**. Key skills: **Software Engineering, Extract Transform Load, and CI/CD**. I am passionate about learning new technologies."
+      - "Experienced software engineer with expertise in **Python and Java**. My strengths include **automating processes**."
+      - "Key skills: **Software Engineering, Extract Transform Load, and CI/CD**. I am passionate about learning new technologies."
       
     "\\faUserGraduate\\enspace  education":
       - institution: University of Bayreuth  
@@ -35,7 +36,7 @@ cv:
         degree: BS
         highlights:
           - '**Thesis Project:** Controlling multiple robots in virtual disaster environments.'
-        
+    
     "\\faUsersCog\\enspace  experience":
       - company: 'Fraunhofer HTL'
         position: 'Software Engineer - Hiwi'
@@ -55,7 +56,7 @@ cv:
         end_date: 2020-08
         # location: Remote
         highlights:
-          - Maintained Jive document management software.
+          - Maintained Jive document management and collaboration software.
           - Fixed integration issues with Microsoft O365, SharePoint, Box etc.
           - '**Tech Stack:** Java|Spring|Maven|Microservices|RestApi|MS-O365|Box|Docker|Jira'
 
@@ -79,11 +80,13 @@ cv:
           # - Increased connected sensors by 400% with above software.
           - '**Tech Stack:** C#.NET|MS SQLServer|Serial|GPRS|TCP|UDP|Git'
     
-    # "\\faLanguage\\enspace languages":
-    #   - "English(C1), **German(B1 and learning)**, Turkish(C2), Uzbek(native), Turkmen(native),"
+    "\\faLanguage\\enspace languages":
+      - "English(C1), **German(B1 and learning)**, Turkish(C2), Uzbek(native), Turkmen(native)"
+      - ""    
+
 
     "\\faUserNinja\\enspace skills": 
-        - '**Languages**: English(C1) | \textbf{German(B1 and learning)} | Turkish(C2) | Uzbek(native) | Turkmen(native)'
+        # - '**Languages**: English(C1) | \textbf{German(B1 and learning)} | Turkish(C2) | Uzbek(native) | Turkmen(native)'
         - '**Programming**: Python(expert) | Java(expert) | C#(basic) | SQL(basic) | C(basic)'
         - '**Tools**: Git(good) | Docker(good) | Linux(good) | GitLab CI/CD(good)'
         - '**Frameworks**: Android(good) | Pandas(good) | Flask(good) | PyQt5(basic) | scikit-learn(basic) | Keras(basic)'
