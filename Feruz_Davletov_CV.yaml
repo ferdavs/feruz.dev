@@ -152,7 +152,7 @@ design:
   font_size: 12pt
   page_size: a4paper
   disable_external_link_icons: false
-  disable_page_numbering: false
+  disable_page_numbering: true
   page_numbering_style: NAME - PAGE_NUMBER / TOTAL_PAGES
   # show_last_updated_date: false
   header_font_size: 26 pt
