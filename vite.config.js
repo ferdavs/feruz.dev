@@ -49,6 +49,7 @@ function renderCV() {
 export default defineConfig({
 	plugins: [sveltekit()],
 	define: {
+		__PDFS__: JSON.stringify(listFiles(destination, '.pdf')),
 		__CV_FILES__: renderCV(),
 		__APP_VERSION__: JSON.stringify(require('./package.json').version),
 	}
