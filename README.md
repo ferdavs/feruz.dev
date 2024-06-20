@@ -12,20 +12,20 @@
 
 ## University of Bayreuth, MS in Computer Science
 
-- Oct 2020 -- Mar 2024
+- Oct 2020 – Mar 2024
 - **Thesis:** Exploring the Role of Chatbots in Group Language Learning.
-- **Courses:** Data Analysis and Deep Learning with Python | Reinforcement Learning | Intelligent UIs
+- **Courses:** Data Analysis and Deep Learning with Python | Intelligent UIs
 
 ## Yildiz Technical University, BS in Computer Engineering
 
-- Sep 2008 -- Aug 2013
+- Sep 2008 – Aug 2013
 - **Thesis Project:** Controlling multiple robots in virtual disaster environments.
 
 # \faUsersCog\enspace  Experience
 
-## Fraunhofer HTL, Software Engineer - Hiwi
+## Fraunhofer HTL, Software Engineer - Part-time
 
-- Dec 2021 -- Apr 2024
+- Dec 2021 – Apr 2024
 - Bayreuth, Germany
 - Developed a ETL library to extract sensor data from InfluxDB .
 - Created a visualization tool using PyQt and PyQTGraph.
@@ -34,27 +34,27 @@
 
 ## Crossover, Software Engineer
 
-- Jul 2018 -- Aug 2020
+- Jul 2018 – Aug 2020
 - Maintained Jive document management and collaboration software.
 - Fixed integration issues with Microsoft O365, SharePoint, Box etc.
-- **Tech Stack:** Java|Spring|Maven|Microservices|RestApi|MS-O365|Box|Docker|Jira
+- **Tech Stack:** Java|Spring|Maven|Microservices|MS-O365|Docker|Jira
 
 ## Kollektif Labs, Software Engineer
 
-- May 2017 -- Jul 2018
-- Added financial portfolio analysis and metrics like sharpe ratio, etc.
+- May 2017 – Jul 2018
+- Implemented financial portfolio analysis and metrics like sharpe ratio, etc.
 - Maintained the Java backend and Android app for football team.
-- **Tech Stack:** Android(Java)|Play Framework|Django|RestApi|PostgreSQL|Docker|Asana|Git
+- **Tech Stack:** Android(Java)|Play Framework|Django|PostgreSQL|Git
 
 ## Mavili Elektronik, Software Engineer - Part-time
 
-- Jul 2013 -- Aug 2015
-- Developed communication software between sensors and UI using Serial and TCP protocols.
+- Jul 2013 – Aug 2015
+- Developed communication software between sensors and UI.
 - **Tech Stack:** C#.NET|MS SQLServer|Serial|GPRS|TCP|UDP|Git
 
 # $\overset{\text{\faLanguage}}{\text{\raisebox{0.1em}{\faUser}}}$\enspace Languages
 
-English(C1), **German(B1 and learning)**, Turkish(C2), Uzbek(native), Turkmen(native)
+English(C1), German(B1 and learning), Turkish(C2), Uzbek(native), Turkmen(native)
 
 # \faUserNinja\enspace Skills
 
@@ -62,32 +62,32 @@ English(C1), **German(B1 and learning)**, Turkish(C2), Uzbek(native), Turkmen(na
 
 **Tools**: Git(good) | Docker(good) | Linux(good) | GitLab CI/CD(good)
 
-**Frameworks**: Android(good) | Pandas(good) | Flask(good) | PyQt5(basic) | scikit-learn(basic) | Keras(basic)
+**Frameworks**: Android(good) | Pandas(good) | Flask(good) | PyQt5(basic) | scikit-learn(basic)
 
 **Databases**: PostgreSQL(basic) | InfluxDB(basic) | Redis(basic)
 
 **Others**: OOP(expert) | TDD(good) | ETL(good) | REST-API(good) | Microservices(good) | Machine Learning(good) | Deep Learning(basic) | Reinforcement Learning(basic)
 
-# \faUserCog\enspace  Projects
+# \faUserCog\enspace Last Projects
 
 ## Energy Usage Prediction of Household Devices with Energy Meters
 
 - Sep 2023
 - Created system and software architecture for the project.
 - Developed a backend service to collect energy usage data from energy meters.
-- Developed an android app and a predictive model to visualize energy usage and predictions.
+- Developed an android app and a predictive model to visualize energy usage.
 - **Tech Stack:** Android(Java)|Python|PostgreSQL|NumPy|Pandas|Tuya energy meters
 
 ## Walking and Running route suggestion app based on user preferences
 
 - Mar 2023
-- Implemented google-maps like navigation with voice using OpenStreetMap for the routes.
+- Implemented google-maps like navigation with voice using OpenStreetMap.
 - **Tech Stack:** Android(Java)|OSRM|Azure Neural TTS
 
 ## Matrix Multiplication Energy Consumption on Intel and AMD CPUs
 
 - Jun 2022
-- Investigated energy consumption of matrix multiplication algorithms in x86 architectures.
+- Investigated energy consumption of matrix multiplication algorithms in x86.
 - **Tech Stack:** C|Python|NumPy|Pandas|Linux|likwid library
 
 # \faUserEdit\enspace Publications
