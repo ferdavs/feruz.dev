@@ -17,8 +17,8 @@ cv:
     #   - "Experienced software engineer with expertise in **Python and Java**."
     #   - "Key skills: **Software Engineering**, **Extract Transform Load**, and **automating processes with CI/CD**. I am passionate about learning new technologies."
       
-    "\\faUserGraduate\\enspace  education":
-      - institution: University of Bayreuth  
+    "\\faUserGraduate\\enspace  Bildung":
+      - institution: Universität Bayreuth  
         start_date: 2020-10
         end_date: 2024-03
         # location: Bayreuth, Germany
@@ -37,79 +37,79 @@ cv:
         highlights:
           - '**Thesis Project:** Controlling multiple robots in virtual disaster environments.'
     
-    "\\faUsersCog\\enspace  experience":
+    "\\faUsersCog\\enspace  Berufserfahrung":
       - company: 'Fraunhofer HTL'
-        position: 'Software Engineer - Part-time'
+        position: 'Software-Entwickler - Teilzeit'
         start_date: 2021-12
         end_date: 2024-04
         location: Bayreuth, Germany
         highlights:
-          - Developed a ETL library to extract sensor data from InfluxDB .
-          - Created a visualization tool using PyQt and PyQTGraph.
-          - Configured CI/CD for automated tests, deployments, and documentation.
+          - Entwicklung einer ETL-Bibliothek zur Extraktion von Sensordaten aus InfluxDB.
+          - Erstellung eines Visualisierungswerkzeugs mit PyQt und PyQTGraph.
+          - Konfigurierte CI/CD für automatisierte Tests, Bereitstellungen und Dokumentation.
           - '**Tech Stack:** Python|InfluxDB|PyQt5|GitLab CI/CD|Pandas|Git|Docker|NumPy.'
 
       - company: Crossover
-        position: 'Software Engineer'
+        position: 'Software-Entwickler'
         start_date: 2018-07
         end_date: 2020-08
         # location: Remote
         highlights:
-          - Maintained Jive document management and collaboration software.
-          - Fixed integration issues with Microsoft O365, SharePoint, Box etc.
+          - Pflege der Jive-Software für Dokumentenmanagement und Zusammenarbeit.
+          - Korrektur von Integrationsproblemen mit Microsoft O365, SharePoint, Box usw..
           - '**Tech Stack:** Java|Spring|Maven|Microservices|MS-O365|Docker|Jira'
 
       - company: 'Kollektif Labs'
-        position: 'Software Engineer'
+        position: 'Software-Entwickler'
         start_date: 2017-05
         end_date: 2018-07
         # location: Istanbul, Turkey
         highlights:
-          - Implemented financial portfolio analysis and metrics like sharpe ratio, etc. 
-          - Maintained the Java backend and Android app for football team.
+          - Einführung von Finanzportfolioanalysen und -kennzahlen wie Sharpe Ratio usw. 
+          - Betreute das Java-Backend und die Android-App für die Fußballmannschaft.
           - '**Tech Stack:** Android(Java)|Play Framework|Django|PostgreSQL|Git'
 
       - company: 'Mavili Elektronik'
-        position: 'Software Engineer - Part-time'
+        position: 'Software-Entwickler - Teilzeit'
         start_date: 2013-07
         end_date: 2015-08
         # location: Istanbul, Turkey
         highlights:
-          - Developed communication software between sensors and UI.
+          - Entwicklung einer Software zur Kommunikation zwischen Sensoren und UI.
           # - Increased connected sensors by 400% with above software.
           - '**Tech Stack:** C#.NET|MS SQLServer|Serial|GPRS|TCP|UDP|Git'
     
-    "$\\overset{\\text{\\faLanguage}}{\\text{\\raisebox{0.1em}{\\faUser}}}$\\enspace languages":
-      - "English(C1), German(B1 and learning), Turkish(C2), Uzbek(native), Turkmen(native)"
+    "$\\overset{\\text{\\faLanguage}}{\\text{\\raisebox{0.1em}{\\faUser}}}$\\enspace Sprachen":
+      - "Englisch(C1), Deutsch(B1 und lerne), Turkisch(fließend), Usbekisch(Muttersprache), Turkmenisch(Muttersprache)"
 
-    "\\faUserNinja\\enspace skills": 
-        - '**Programming**: Python(expert) | Java(expert) | C#(basic) | SQL(basic) | C(basic)'
+    "\\faUserNinja\\enspace Fähigkeiten": 
+        - '**Programmierung**: Python(expert) | Java(expert) | C#(basic) | SQL(basic) | C(basic)'
         - '**Tools**: Git(good) | Docker(good) | Linux(good) | GitLab CI/CD(good)'
         - '**Frameworks**: Android(good) | Pandas(good) | Flask(good) | PyQt5(basic) | scikit-learn(basic)'
         - '**Databases**: PostgreSQL(basic) | InfluxDB(basic) | Redis(basic)'
-        - '**Others**: OOP(expert) | TDD(good) | ETL(good) | REST-API(good) | Microservices(good) | Machine Learning(good) | Deep Learning(basic) | Reinforcement Learning(basic)'
+        - '**Andere**: OOP(expert) | TDD(good) | ETL(good) | REST-API(good) | Microservices(good) | Machine Learning(good) | Deep Learning(basic) | Reinforcement Learning(basic)'
 
-    "\\faUserCog\\enspace last projects":
-      - name: 'Energy Usage Prediction of Household Devices with Energy Meters'
+    "\\faUserCog\\enspace Letzte Projekte":
+      - name: 'Vorhersage des Energieverbrauchs von Haushaltsgeräten mit Energiemessgeräten.'
         # location: Bayreuth University
         date: 2023-09
         highlights: 
-          - Created system and software architecture for the project.
-          - Developed a backend service to collect energy usage data from energy meters.
-          - Developed an android app and a predictive model to visualize energy usage.
+          - Erstellung der System- und Softwarearchitektur für das Projekt.
+          - Entwicklung eines Backend-Service zur Erfassung von Energieverbrauchsdaten von Energiezählern.
+          - Entwicklung einer Android-App und eines Vorhersagemodells zur Visualisierung des Energieverbrauchs.
           - '**Tech Stack:** Android(Java)|Python|PostgreSQL|NumPy|Pandas|Tuya energy meters'
-      - name: 'Walking and Running route suggestion app based on user preferences'
+      - name: 'App mit Routenvorschlägen für Spaziergänge und Läufe auf der Grundlage von Benutzerpräferenzen.'
         # location: Bayreuth University
         date: 2023-03
         highlights: 
-            - Implemented google-maps like navigation with voice using OpenStreetMap.
+            - Implementierung einer Google-Maps-ähnlichen Navigation mit Sprache unter Verwendung von OpenStreetMap.
             - '**Tech Stack:** Android(Java)|OSRM|Azure Neural TTS'
 
-      - name: 'Matrix Multiplication Energy Consumption on Intel and AMD CPUs'
+      - name: 'Energieverbrauch bei der Matrixmultiplikation auf Intel- und AMD-CPUs'
         # location: Bayreuth University
         date: 2022-06
         highlights: 
-            - Investigated energy consumption of matrix multiplication algorithms in x86.
+            - Untersuchung des Energieverbrauchs von Algorithmen zur Matrixmultiplikation in x86.
             - '**Tech Stack:** C|Python|NumPy|Pandas|Linux|likwid library'
       
       # - name: 'Exploring Metabolic Networks and Gene Regulation Networks'
@@ -127,7 +127,7 @@ cv:
       #     - Focused on features like word count, sentence count, word frequency, N-grams, etc.
       #     - '**Tech Stack:** Java, Weka, NLP.'
 
-    "\\faUserEdit\\enspace publications":
+    "\\faUserEdit\\enspace Publikationen":
       - title: 'High Impact Academic Paper Prediction Using Temporal and Topological Features'
         authors:
           - Feruz Davletov
