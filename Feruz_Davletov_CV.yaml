@@ -26,7 +26,7 @@ cv:
         degree: MS    
         highlights:
           - '**Thesis:** Exploring the Role of Chatbots in Group Language Learning.'
-          - '**Courses:** Data Analysis and Deep Learning with Python | Reinforcement Learning | Intelligent UIs'
+          - '**Courses:** Data Analysis and Deep Learning with Python | Intelligent UIs'
 
       - institution: Yildiz Technical University 
         start_date: 2008-09
@@ -39,7 +39,7 @@ cv:
     
     "\\faUsersCog\\enspace  experience":
       - company: 'Fraunhofer HTL'
-        position: 'Software Engineer - Hiwi'
+        position: 'Software Engineer - Part-time'
         start_date: 2021-12
         end_date: 2024-04
         location: Bayreuth, Germany
@@ -57,7 +57,7 @@ cv:
         highlights:
           - Maintained Jive document management and collaboration software.
           - Fixed integration issues with Microsoft O365, SharePoint, Box etc.
-          - '**Tech Stack:** Java|Spring|Maven|Microservices|RestApi|MS-O365|Box|Docker|Jira'
+          - '**Tech Stack:** Java|Spring|Maven|Microservices|MS-O365|Docker|Jira'
 
       - company: 'Kollektif Labs'
         position: 'Software Engineer'
@@ -67,7 +67,7 @@ cv:
         highlights:
           - Added financial portfolio analysis and metrics like sharpe ratio, etc. 
           - Maintained the Java backend and Android app for football team.
-          - '**Tech Stack:** Android(Java)|Play Framework|Django|RestApi|PostgreSQL|Docker|Asana|Git'
+          - '**Tech Stack:** Android(Java)|Play Framework|Django|PostgreSQL|Git'
 
       - company: 'Mavili Elektronik'
         position: 'Software Engineer - Part-time'
@@ -75,17 +75,17 @@ cv:
         end_date: 2015-08
         # location: Istanbul, Turkey
         highlights:
-          - Developed communication software between sensors and UI using Serial and TCP protocols.
+          - Developed communication software between sensors and UI.
           # - Increased connected sensors by 400% with above software.
           - '**Tech Stack:** C#.NET|MS SQLServer|Serial|GPRS|TCP|UDP|Git'
     
     "$\\overset{\\text{\\faLanguage}}{\\text{\\raisebox{0.1em}{\\faUser}}}$\\enspace languages":
-      - "English(C1), **German(B1 and learning)**, Turkish(C2), Uzbek(native), Turkmen(native)"
+      - "English(C1), German(B1 and learning), Turkish(C2), Uzbek(native), Turkmen(native)"
 
     "\\faUserNinja\\enspace skills": 
         - '**Programming**: Python(expert) | Java(expert) | C#(basic) | SQL(basic) | C(basic)'
         - '**Tools**: Git(good) | Docker(good) | Linux(good) | GitLab CI/CD(good)'
-        - '**Frameworks**: Android(good) | Pandas(good) | Flask(good) | PyQt5(basic) | scikit-learn(basic) | Keras(basic)'
+        - '**Frameworks**: Android(good) | Pandas(good) | Flask(good) | PyQt5(basic) | scikit-learn(basic)'
         - '**Databases**: PostgreSQL(basic) | InfluxDB(basic) | Redis(basic)'
         - '**Others**: OOP(expert) | TDD(good) | ETL(good) | REST-API(good) | Microservices(good) | Machine Learning(good) | Deep Learning(basic) | Reinforcement Learning(basic)'
 
@@ -96,20 +96,20 @@ cv:
         highlights: 
           - Created system and software architecture for the project.
           - Developed a backend service to collect energy usage data from energy meters.
-          - Developed an android app and a predictive model to visualize energy usage and predictions.
+          - Developed an android app and a predictive model to visualize energy usage.
           - '**Tech Stack:** Android(Java)|Python|PostgreSQL|NumPy|Pandas|Tuya energy meters'
       - name: 'Walking and Running route suggestion app based on user preferences'
         # location: Bayreuth University
         date: 2023-03
         highlights: 
-            - Implemented google-maps like navigation with voice using OpenStreetMap for the routes.
+            - Implemented google-maps like navigation with voice using OpenStreetMap.
             - '**Tech Stack:** Android(Java)|OSRM|Azure Neural TTS'
 
       - name: 'Matrix Multiplication Energy Consumption on Intel and AMD CPUs'
         # location: Bayreuth University
         date: 2022-06
         highlights: 
-            - Investigated energy consumption of matrix multiplication algorithms in x86 architectures.
+            - Investigated energy consumption of matrix multiplication algorithms in x86.
             - '**Tech Stack:** C|Python|NumPy|Pandas|Linux|likwid library'
       
       # - name: 'Exploring Metabolic Networks and Gene Regulation Networks'
