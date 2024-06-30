@@ -4,7 +4,7 @@
 
 <nav>
 	<ul>
-		<li><a href="/">About</a></li>
+		<li><a href="/">ChatMe</a></li>
 		<li><a href="/projects">Projects</a></li>
 		<li><a href="/cv">CV</a></li>
 	</ul>
