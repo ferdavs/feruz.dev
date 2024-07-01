@@ -17,25 +17,25 @@ cv:
     #   - "Experienced software engineer with expertise in **Python and Java**."
     #   - "Key skills: **Software Engineering**, **Extract Transform Load**, and **automating processes with CI/CD**. I am passionate about learning new technologies."
       
-    "\\faUserGraduate\\enspace  Bildung":
+    "\\faUserGraduate\\enspace  Bildungsweg":
       - institution: Universität Bayreuth  
         start_date: 2020-10
         end_date: 2024-03
         # location: Bayreuth, Germany
         area: Computer Science
-        degree: MS    
+        degree: Master
         highlights:
-          - '**Thesis:** Exploring the Role of Chatbots in Group Language Learning.'
-          - '**Courses:** Data Analysis and Deep Learning with Python | Intelligent UIs'
+          - '**Masterarbeit:** Exploring the Role of Chatbots in Group Language Learning.'
+          - '**Module:** Data Analysis and Deep Learning with Python | Intelligent UIs | Machine Learning | Reinforcement Learning'
 
       - institution: Yildiz Technical University 
         start_date: 2008-09
         end_date: 2013-08
         # location: Istanbul, Turkey
         area: Computer Engineering
-        degree: BS
+        degree: Bachelor
         highlights:
-          - '**Thesis Project:** Controlling multiple robots in virtual disaster environments.'
+          - '**Bachelorarbeit:** Controlling multiple robots in virtual disaster environments.'
     
     "\\faUsersCog\\enspace  Berufserfahrung":
       - company: 'Fraunhofer HTL'
@@ -55,8 +55,8 @@ cv:
         end_date: 2020-08
         # location: Remote
         highlights:
-          - Pflege der Jive-Software für Dokumentenmanagement und Zusammenarbeit.
-          - Korrektur von Integrationsproblemen mit Microsoft O365, SharePoint, Box usw..
+          - Pflege der Dokumentenmanagement- und Kollaborationssoftware Jive.
+          - Korrektur von Integrationsproblemen mit Microsoft O365, SharePoint, Box usw.
           - '**Tech Stack:** Java|Spring|Maven|Microservices|MS-O365|Docker|Jira'
 
       - company: 'Kollektif Labs'
@@ -65,8 +65,8 @@ cv:
         end_date: 2018-07
         # location: Istanbul, Turkey
         highlights:
-          - Einführung von Finanzportfolioanalysen und -kennzahlen wie Sharpe Ratio usw. 
-          - Betreute das Java-Backend und die Android-App für die Fußballmannschaft.
+          - Einführung von Finanzportfolioanalysen und -kennzahlen wie Sharpe Ratio usw.
+          - Entwicklung des Java-Backends und der Android-App für die Fußballmannschaft.
           - '**Tech Stack:** Android(Java)|Play Framework|Django|PostgreSQL|Git'
 
       - company: 'Mavili Elektronik'
@@ -76,20 +76,20 @@ cv:
         # location: Istanbul, Turkey
         highlights:
           - Entwicklung einer Software zur Kommunikation zwischen Sensoren und UI.
-          # - Increased connected sensors by 400% with above software.
-          - '**Tech Stack:** C#.NET|MS SQLServer|Serial|GPRS|TCP|UDP|Git'
+          - Entwicklung der Benutzeroberfläche in QT C++ für Feuer- und Gasalarmsysteme
+          - '**Tech Stack:** C#.NET|QT C++|MS SQLServer|Serial|GPRS|TCP|UDP|Git'
     
     "$\\overset{\\text{\\faLanguage}}{\\text{\\raisebox{0.1em}{\\faUser}}}$\\enspace Sprachen":
-      - "Englisch(C1), Deutsch(B1 und lerne), Turkisch(fließend), Usbekisch(Muttersprache), Turkmenisch(Muttersprache)"
+      - "Englisch(C1) | Deutsch(B1 und lerne) | Turkisch(C2) | Usbekisch(C2) | Turkmenisch(C2)"
 
     "\\faUserNinja\\enspace Fähigkeiten": 
-        - '**Programmierung**: Python(expert) | Java(expert) | C#(basic) | SQL(basic) | C(basic)'
-        - '**Tools**: Git(good) | Docker(good) | Linux(good) | GitLab CI/CD(good)'
-        - '**Frameworks**: Android(good) | Pandas(good) | Flask(good) | PyQt5(basic) | scikit-learn(basic)'
-        - '**Databases**: PostgreSQL(basic) | InfluxDB(basic) | Redis(basic)'
-        - '**Andere**: OOP(expert) | TDD(good) | ETL(good) | REST-API(good) | Microservices(good) | Machine Learning(good) | Deep Learning(basic) | Reinforcement Learning(basic)'
+        - "**Programmierung**: Python(Expert) | Java(Expert) | C#(Grund) | SQL(Grund) | C(Grund) | C++(Grund)"
+        - "**Tools**: Git(Gut) | Docker(Gut) | Linux(Gut) | GitLab CI/CD(Gut)"
+        - "**Frameworks**: Android(Gut) | Pandas(Gut) | Flask(Gut) | PyQt5(Grund) | scikit-learn(Grund)"
+        - "**Databases**: PostgreSQL(Grund) | InfluxDB(Grund) | Redis(Grund)"
+        - "**Andere**: OOP(expert) | TDD(Gut) | ETL(Gut) | REST-API(Gut) | Microservices(Gut)"
 
-    "\\faUserCog\\enspace Letzte Projekte":
+    "\\faUserCog\\enspace Projekte":
       - name: 'Vorhersage des Energieverbrauchs von Haushaltsgeräten mit Energiemessgeräten.'
         # location: Bayreuth University
         date: 2023-09
@@ -169,5 +169,5 @@ design:
       bottom: 10 pt
     entry_area:
       left_and_right: 0 cm
-      vertical_between: 0.3 cm
+      vertical_between: 0.25 cm
       date_and_location_width: 4.5 cm

@@ -4,7 +4,7 @@ cv:
   name: Feruz Davletov
 
   location: Bismarckstr 25, 95444 Bayreuth
-  email: jobs@fer.mozmail.com
+  email: fdavletov@gmail.com
   phone: tel:+49-170-670-3555
   website: https://feruz.dev
   social_networks:
@@ -76,18 +76,19 @@ cv:
         # location: Istanbul, Turkey
         highlights:
           - Developed communication software between sensors and UI.
-          # - Increased connected sensors by 400% with above software.
-          - '**Tech Stack:** C#.NET|MS SQLServer|Serial|GPRS|TCP|UDP|Git'
+          - Developed UI in QT C++ for fire and gas alarm systems.
+          - '**Tech Stack:** C#.NET|QT C++|MS SQLServer|Serial|GPRS|TCP|UDP|Git'
     
     "$\\overset{\\text{\\faLanguage}}{\\text{\\raisebox{0.1em}{\\faUser}}}$\\enspace languages":
       - "English(C1), German(B1 and learning), Turkish(C2), Uzbek(native), Turkmen(native)"
 
     "\\faUserNinja\\enspace skills": 
-        - '**Programming**: Python(expert) | Java(expert) | C#(basic) | SQL(basic) | C(basic)'
+        - '**Programming**: Python(expert) | Java(expert) | C#(basic) | SQL(basic) | C(basic) | C++(basic)'
         - '**Tools**: Git(good) | Docker(good) | Linux(good) | GitLab CI/CD(good)'
         - '**Frameworks**: Android(good) | Pandas(good) | Flask(good) | PyQt5(basic) | scikit-learn(basic)'
         - '**Databases**: PostgreSQL(basic) | InfluxDB(basic) | Redis(basic)'
-        - '**Others**: OOP(expert) | TDD(good) | ETL(good) | REST-API(good) | Microservices(good) | Machine Learning(good) | Deep Learning(basic) | Reinforcement Learning(basic)'
+        - '**Others**: OOP(expert) | TDD(good) | ETL(good) | REST-API(good) | Microservices(good)' 
+          # | Machine Learning(good) | Deep Learning(basic) | Reinforcement Learning(basic)'
 
     "\\faUserCog\\enspace last projects":
       - name: 'Energy Usage Prediction of Household Devices with Energy Meters'
