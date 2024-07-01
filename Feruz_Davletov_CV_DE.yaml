@@ -87,7 +87,7 @@ cv:
         - "**Tools**: Git(Gut) | Docker(Gut) | Linux(Gut) | GitLab CI/CD(Gut)"
         - "**Frameworks**: Android(Gut) | Pandas(Gut) | Flask(Gut) | PyQt5(Grund) | scikit-learn(Grund)"
         - "**Databases**: PostgreSQL(Grund) | InfluxDB(Grund) | Redis(Grund)"
-        - "**Andere**: OOP(expert) | TDD(Gut) | ETL(Gut) | REST-API(Gut) | Microservices(Gut)"
+        - "**Andere**: OOP(Expert) | TDD(Gut) | ETL(Gut) | REST-API(Gut) | Microservices(Gut)"
 
     "\\faUserCog\\enspace Projekte":
       - name: 'Vorhersage des Energieverbrauchs von Haushaltsgeräten mit Energiemessgeräten.'
