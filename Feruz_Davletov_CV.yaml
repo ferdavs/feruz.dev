@@ -7,17 +7,12 @@ cv:
   phone: tel:+49-170-670-3555
   website: https://feruz.dev
   photo: profile_picture.jpg
-  # social_networks:
-    # - network: LinkedIn
-    #   username: feruz-davletov
+  social_networks:
+    - network: LinkedIn
+      username: feruz-davletov
     # - network: GitHub
     #   username: ferdavs
   sections:  
-    
-     
-    # "\\faUser\\enspace  profile":
-    #   - "Experienced software engineer with expertise in **Python and Java**."
-    #   - "Key skills: **Software Engineering**, **Extract Transform Load**, and **automating processes with CI/CD**. I am passionate about learning new technologies."
      
     "education":  
       - institution: University of Bayreuth  
@@ -127,21 +122,6 @@ cv:
             - Investigated energy consumption of matrix multiplication algorithms in x86.
             - '**Tech Stack:** C|Python|NumPy|Pandas|Linux|likwid library'
       
-      # - name: 'Exploring Metabolic Networks and Gene Regulation Networks'
-      #   # location: Istanbul Sehir University
-      #   date: 2016-06
-      #   highlights: 
-      #     - Implemented Flux Balance Analysis algorithms for exploring Metabolic Networks and integrating Gene Regulation Networks as part of the Bioinformatics Lab.
-      #     - Developed time series prediction model and ETL processes for academic citation count project.
-      #     - 'Technologies: **Matlab, C#, SQL, Recon 2.1 Dataset for human metabolic networks**'
-      # - name: 'Text2arff: Automatic feature extraction software for Turkish texts'
-      #   # location: Yildiz Technical University
-      #   date: 2010-04
-      #   highlights: 
-      #     - Developed a UI for extracting features from Turkish texts and converting them to arff format.
-      #     - Focused on features like word count, sentence count, word frequency, N-grams, etc.
-      #     - '**Tech Stack:** Java, Weka, NLP.'
-
     "publications":
       - title: 'High Impact Academic Paper Prediction Using Temporal and Topological Features'
         authors:
@@ -168,8 +148,6 @@ design:
     font_size: 12pt
     alignment: left
     date_and_location_column_alignment: right
-  highlights:
-    bullet: •
   page:
     size: a4
   #   show_page_numbering: false
@@ -179,14 +157,22 @@ design:
   #   right_margin: 2cm
     show_last_updated_date: false
   links:
-    use_external_link_icon: true
-  # header:  
-  #   # alignment: left
+    use_external_link_icon: false
+  section_titles:
+    line_thickness: "0.9pt"
+    font_size: "1.5em"
+    # vertical_space_above: 0.70cm
+    font_family: Lato
+  highlights:
+    bullet: "-"
+    vertical_space_between_highlights: 0.40cm
+  header:  
+    alignment: left
   #   name_font_size: 30pt
-  #   name_bold: false
-  #   photo_width: 3.5cm
+    name_bold: true
+    photo_width: 3.5cm
     # use_icons_for_connections: true
-  #   separator_between_connections: ''
+    separator_between_connections: ''
 
 rendercv_settings:
   date: '2025-01-07'
