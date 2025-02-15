@@ -4,7 +4,7 @@ cv:
   name: Feruz Davletov
 
   location: Bismarckstr 25, 95444 Bayreuth
-  email: jobs@fer.mozmail.com
+  email: fdavletov@gmail.com
   phone: tel:+49-170-670-3555
   website: https://feruz.dev
   social_networks:
@@ -68,7 +68,15 @@ cv:
           - Einführung von Finanzportfolioanalysen und -kennzahlen wie Sharpe Ratio usw.
           - Entwicklung des Java-Backends und der Android-App für die Fußballmannschaft.
           - '**Tech Stack:** Android(Java)|Play Framework|Django|PostgreSQL|Git'
-
+      - company: 'Istanbul Sehir University'
+        position: 'Wissenschaftlicher Mitarbeiter'
+        start_date: 2013-09
+        end_date: 2016-06
+        # location: Istanbul, Turkey
+        highlights:
+          - Entwicklung eines Zeitreihenvorhersagemodells und von ETL-Prozessen für ein Projekt zur Zählung akademischer Zitate.
+          - Implementierung von Algorithmen zur Flux Balance Analysis für die Untersuchung von Stoffwechselnetzen.
+          - '**Tech Stack:** C#.NET|MS SQLServer|Matlab|Git'
       - company: 'Mavili Elektronik'
         position: 'Software-Entwickler - Teilzeit'
         start_date: 2013-07
@@ -169,5 +177,5 @@ design:
       bottom: 10 pt
     entry_area:
       left_and_right: 0 cm
-      vertical_between: 0.25 cm
+      vertical_between: 0.4 cm
       date_and_location_width: 4.5 cm

@@ -2,22 +2,24 @@
 
 cv:
   name: Feruz Davletov
-
-  location: Bismarckstr 25, 95444 Bayreuth
+  location: Bismarckstr, 95444 Bayreuth
   email: fdavletov@gmail.com
   phone: tel:+49-170-670-3555
   website: https://feruz.dev
-  social_networks:
-    - network: LinkedIn
-      username: feruz-davletov
-    - network: GitHub
-      username: ferdavs
-  sections:
+  photo: profile_picture.jpg
+  # social_networks:
+    # - network: LinkedIn
+    #   username: feruz-davletov
+    # - network: GitHub
+    #   username: ferdavs
+  sections:  
+    
+     
     # "\\faUser\\enspace  profile":
     #   - "Experienced software engineer with expertise in **Python and Java**."
     #   - "Key skills: **Software Engineering**, **Extract Transform Load**, and **automating processes with CI/CD**. I am passionate about learning new technologies."
-      
-    "\\faUserGraduate\\enspace  education":
+     
+    "education":  
       - institution: University of Bayreuth  
         start_date: 2020-10
         end_date: 2024-03
@@ -37,7 +39,7 @@ cv:
         highlights:
           - '**Thesis Project:** Controlling multiple robots in virtual disaster environments.'
     
-    "\\faUsersCog\\enspace  experience":
+    "experience":
       - company: 'Fraunhofer HTL'
         position: 'Software Engineer - Part-time'
         start_date: 2021-12
@@ -55,9 +57,10 @@ cv:
         end_date: 2020-08
         # location: Remote
         highlights:
-          - Maintained Jive document management and collaboration software.
+          - Maintained Jive Core document management and collaboration software.
           - Fixed integration issues with Microsoft O365, SharePoint, Box etc.
-          - '**Tech Stack:** Java|Spring|Maven|Microservices|MS-O365|Docker|Jira'
+          - Implemented document translation microservice using Azure. 
+          - '**Tech Stack:** Java|Spring|Maven|Microservices|Selenium|Jenkins|MS-O365|Docker|Jira'
 
       - company: 'Kollektif Labs'
         position: 'Software Engineer'
@@ -66,23 +69,34 @@ cv:
         # location: Istanbul, Turkey
         highlights:
           - Implemented financial portfolio analysis and metrics like sharpe ratio, etc. 
-          - Maintained the Java backend and Android app for football team.
+          - Maintained the Java backend and Android app for Galtasaray football team.
+          - Maintained Android app for shopping center.
           - '**Tech Stack:** Android(Java)|Play Framework|Django|PostgreSQL|Git'
-
+      - company: 'Istanbul Sehir University'
+        position: 'Research Assistant'
+        start_date: 2013-09
+        end_date: 2016-06
+        # location: Istanbul, Turkey
+        highlights:
+          - Developed prediction model and ETL for academic citation count project.
+          - Implemented Flux Balance Analysis algorithms for exploring Metabolic Networks.
+          - Contributed to Twitter Strand project which analyses participation patterns.
+          - '**Tech Stack:** C#.NET|MS SQLServer|Matlab|Git'
       - company: 'Mavili Elektronik'
         position: 'Software Engineer - Part-time'
         start_date: 2013-07
         end_date: 2015-08
         # location: Istanbul, Turkey
         highlights:
-          - Developed communication software between sensors and UI.
+          - Developed communication software between fire and gas sensors and UI.
           - Developed UI in QT C++ for fire and gas alarm systems.
-          - '**Tech Stack:** C#.NET|QT C++|MS SQLServer|Serial|GPRS|TCP|UDP|Git'
+          - Developed Android app to control alarm system. 
+          - '**Tech Stack:** C#.NET|QT C++|MS SQLServer|Serial|GPRS|TCP|UDP|Git|Android|Java'
     
-    "$\\overset{\\text{\\faLanguage}}{\\text{\\raisebox{0.1em}{\\faUser}}}$\\enspace languages":
+    "languages":
       - "English(C1), German(B1 and learning), Turkish(C2), Uzbek(native), Turkmen(native)"
 
-    "\\faUserNinja\\enspace skills": 
+    "skills": 
         - '**Programming**: Python(expert) | Java(expert) | C#(basic) | SQL(basic) | C(basic) | C++(basic)'
         - '**Tools**: Git(good) | Docker(good) | Linux(good) | GitLab CI/CD(good)'
         - '**Frameworks**: Android(good) | Pandas(good) | Flask(good) | PyQt5(basic) | scikit-learn(basic)'
@@ -90,7 +104,7 @@ cv:
         - '**Others**: OOP(expert) | TDD(good) | ETL(good) | REST-API(good) | Microservices(good)' 
           # | Machine Learning(good) | Deep Learning(basic) | Reinforcement Learning(basic)'
 
-    "\\faUserCog\\enspace last projects":
+    "projects":
       - name: 'Energy Usage Prediction of Household Devices with Energy Meters'
         # location: Bayreuth University
         date: 2023-09
@@ -128,7 +142,7 @@ cv:
       #     - Focused on features like word count, sentence count, word frequency, N-grams, etc.
       #     - '**Tech Stack:** Java, Weka, NLP.'
 
-    "\\faUserEdit\\enspace publications":
+    "publications":
       - title: 'High Impact Academic Paper Prediction Using Temporal and Topological Features'
         authors:
           - Feruz Davletov
@@ -149,26 +163,46 @@ cv:
 
 design:
   theme: engineeringresumes
-  font: "Source Sans 3"
-  font_size: 12pt
-  page_size: a4paper
-  disable_external_link_icons: false
-  disable_page_numbering: true
-  page_numbering_style: NAME - PAGE_NUMBER / TOTAL_PAGES
-  # show_last_updated_date: false
-  header_font_size: 26 pt
-  text_alignment: left-aligned
-  
-  # use_icons_for_connections: true
-  margins:
-    page:
-      top: 1.5 cm
-      bottom: 2 cm
-      left: 1.75 cm
-      right: 2 cm
-    header:
-      bottom: 10 pt
-    entry_area:
-      left_and_right: 0 cm
-      vertical_between: 0.3 cm
-      date_and_location_width: 4.5 cm
+  text: 
+    font_family: "Lato"
+    font_size: 12pt
+    alignment: left
+    date_and_location_column_alignment: right
+  highlights:
+    bullet: •
+  page:
+    size: a4
+  #   show_page_numbering: false
+  #   top_margin: 1.5cm
+  #   bottom_margin: 2cm
+  #   left_margin: 1.75cm
+  #   right_margin: 2cm
+    show_last_updated_date: false
+  links:
+    use_external_link_icon: true
+  # header:  
+  #   # alignment: left
+  #   name_font_size: 30pt
+  #   name_bold: false
+  #   photo_width: 3.5cm
+    # use_icons_for_connections: true
+  #   separator_between_connections: ''
+
+rendercv_settings:
+  date: '2025-01-07'
+
+locale:
+  language: en
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
